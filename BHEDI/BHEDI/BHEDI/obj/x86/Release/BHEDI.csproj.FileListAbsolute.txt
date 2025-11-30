@@ -1,0 +1,79 @@
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\bin\Release\BHEDI.exe.config
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\bin\Release\BHEDI.exe
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\bin\Release\BHEDI.pdb
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmAbout.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmDataElement.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmEDITransactionSet.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImportInboundFile.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImportOutboundFile.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmInboundMapDesign.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmLogError.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmLogJob.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMain.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMapEDIData.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMappingList.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmOutboundMapDesign.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmReportViewer.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmSetupInbound.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmSetupOutbound.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmTradingPartner.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmViewEDI.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmViewSetting.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmWriteXMLToEDI.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.Properties.Resources.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.exe
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.pdb
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImport820ToSimply.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmProcessDialog.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmTradingPartnerList.resources
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.csproj.GenerateResource.Cache
+C:\Users\pdang\Documents\Visual Studio 2010\Projects\BHEDI\BHEDI\obj\x86\Release\BHEDI.csprojResolveAssemblyReference.cache
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.csproj.AssemblyReference.cache
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmTradingPartnerList.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmProcessDialog.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImport820ToSimply.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmAbout.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmDataElement.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmEDITransactionSet.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImportInboundFile.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmImportOutboundFile.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmInboundMapDesign.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmLogError.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmLogJob.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMain.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMapEDIData.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmMappingList.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmOutboundMapDesign.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmReportViewer.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmSetupInbound.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmSetupOutbound.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmTradingPartner.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmViewEDI.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmViewSetting.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.frmWriteXMLToEDI.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.Properties.Resources.resources
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.csproj.GenerateResource.cache
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.csproj.CoreCompileInputs.cache
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.exe
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.pdb
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\BHEDI.exe.config
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\BHEDI.exe
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\BHEDI.pdb
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.Shared.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\bin\Release\stdole.dll
+C:\Phuong Solutions\EDI\BHEDI\BHEDI\obj\x86\Release\BHEDI.csproj.Up2Date

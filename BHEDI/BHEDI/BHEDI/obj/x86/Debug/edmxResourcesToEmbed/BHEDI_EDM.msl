@@ -1,0 +1,2465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BHEDIModelStoreContainer" CdmEntityContainer="BHEDI_EDM">
+    <EntitySetMapping Name="tblEDI_142_AMT">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_AMT">
+        <MappingFragment StoreEntitySet="tblEDI_142_AMT">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AmtKey" ColumnName="AmtKey" />
+          <ScalarProperty Name="AmountQualifier" ColumnName="AmountQualifier" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_142_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="AssignedIdentification" ColumnName="AssignedIdentification" />
+          <ScalarProperty Name="ModelCodeQual" ColumnName="ModelCodeQual" />
+          <ScalarProperty Name="ModelCode" ColumnName="ModelCode" />
+          <ScalarProperty Name="VehicleIDQual" ColumnName="VehicleIDQual" />
+          <ScalarProperty Name="VehicleIDNum" ColumnName="VehicleIDNum" />
+          <ScalarProperty Name="EngineNumQual" ColumnName="EngineNumQual" />
+          <ScalarProperty Name="EngineNum" ColumnName="EngineNum" />
+          <ScalarProperty Name="EngineModelQual" ColumnName="EngineModelQual" />
+          <ScalarProperty Name="EngineModel" ColumnName="EngineModel" />
+          <ScalarProperty Name="PrimaryFailedPartQual" ColumnName="PrimaryFailedPartQual" />
+          <ScalarProperty Name="PrimaryFailedPart" ColumnName="PrimaryFailedPart" />
+          <ScalarProperty Name="ModelYearQual" ColumnName="ModelYearQual" />
+          <ScalarProperty Name="ModelYear" ColumnName="ModelYear" />
+          <ScalarProperty Name="PartNumCodeQual" ColumnName="PartNumCodeQual" />
+          <ScalarProperty Name="PartNumCode" ColumnName="PartNumCode" />
+          <ScalarProperty Name="PartDescQual" ColumnName="PartDescQual" />
+          <ScalarProperty Name="PartDesc" ColumnName="PartDesc" />
+          <ScalarProperty Name="QuanityQual" ColumnName="QuanityQual" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitMeasureCode" ColumnName="UnitMeasureCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_142_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="Qualifier" ColumnName="Qualifier" />
+          <ScalarProperty Name="dtmDate" ColumnName="dtmDate" />
+          <ScalarProperty Name="Century" ColumnName="Century" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_142_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="WarrantyClaimRefNum" ColumnName="WarrantyClaimRefNum" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_IT1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_IT1">
+        <MappingFragment StoreEntitySet="tblEDI_142_IT1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="It1Key" ColumnName="It1Key" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="LaborHours" ColumnName="LaborHours" />
+          <ScalarProperty Name="UnitMeasurementCode" ColumnName="UnitMeasurementCode" />
+          <ScalarProperty Name="LaborCost" ColumnName="LaborCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_142_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AssignedNum" ColumnName="AssignedNum" />
+          <ScalarProperty Name="ReceiverClaimNumQual" ColumnName="ReceiverClaimNumQual" />
+          <ScalarProperty Name="ReceiverClaimNum" ColumnName="ReceiverClaimNum" />
+          <ScalarProperty Name="BussinessTypeQual" ColumnName="BussinessTypeQual" />
+          <ScalarProperty Name="BussinessType" ColumnName="BussinessType" />
+          <ScalarProperty Name="StateCodeQual" ColumnName="StateCodeQual" />
+          <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+          <ScalarProperty Name="AdjustmentMemoQual" ColumnName="AdjustmentMemoQual" />
+          <ScalarProperty Name="AdjustmentMemoNum" ColumnName="AdjustmentMemoNum" />
+          <ScalarProperty Name="DistributorClaimNumQual" ColumnName="DistributorClaimNumQual" />
+          <ScalarProperty Name="DistributorClaimNum" ColumnName="DistributorClaimNum" />
+          <ScalarProperty Name="DistributorCodeQual" ColumnName="DistributorCodeQual" />
+          <ScalarProperty Name="DistributorCode" ColumnName="DistributorCode" />
+          <ScalarProperty Name="DistributorNameQual" ColumnName="DistributorNameQual" />
+          <ScalarProperty Name="DistributorName" ColumnName="DistributorName" />
+          <ScalarProperty Name="ClaimClassCodeQual" ColumnName="ClaimClassCodeQual" />
+          <ScalarProperty Name="ClaimClassCode" ColumnName="ClaimClassCode" />
+          <ScalarProperty Name="ClaimClassCodeDescQual" ColumnName="ClaimClassCodeDescQual" />
+          <ScalarProperty Name="ClaimClassCodeDesc" ColumnName="ClaimClassCodeDesc" />
+          <ScalarProperty Name="MajorModelSeriesQual" ColumnName="MajorModelSeriesQual" />
+          <ScalarProperty Name="MajorModelSeries" ColumnName="MajorModelSeries" />
+          <ScalarProperty Name="MajorModelDescQual" ColumnName="MajorModelDescQual" />
+          <ScalarProperty Name="MajorModelDesc" ColumnName="MajorModelDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_MSG">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_MSG">
+        <MappingFragment StoreEntitySet="tblEDI_142_MSG">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PrrKey" ColumnName="PrrKey" />
+          <ScalarProperty Name="MsgKey" ColumnName="MsgKey" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_N1">
+        <MappingFragment StoreEntitySet="tblEDI_142_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SplIDCodeQual" ColumnName="SplIDCodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CommQual" ColumnName="CommQual" />
+          <ScalarProperty Name="CommNum" ColumnName="CommNum" />
+          <ScalarProperty Name="SCACCodeQual" ColumnName="SCACCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_PRR">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_PRR">
+        <MappingFragment StoreEntitySet="tblEDI_142_PRR">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PrrKey" ColumnName="PrrKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="ComplaintCode" ColumnName="ComplaintCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_REP">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_REP">
+        <MappingFragment StoreEntitySet="tblEDI_142_REP">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RepKey" ColumnName="RepKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="IDQualifier" ColumnName="IDQualifier" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_142_SSS">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_142_SSS">
+        <MappingFragment StoreEntitySet="tblEDI_142_SSS">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="SssKey" ColumnName="SssKey" />
+          <ScalarProperty Name="Indicator" ColumnName="Indicator" />
+          <ScalarProperty Name="AgencyQualifierCode" ColumnName="AgencyQualifierCode" />
+          <ScalarProperty Name="SpecialServicesCode" ColumnName="SpecialServicesCode" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="SupplierAmount" ColumnName="SupplierAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_810_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_810_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_810_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="TranTypeCode" ColumnName="TranTypeCode" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="TermsBasisDateCode" ColumnName="TermsBasisDateCode" />
+          <ScalarProperty Name="TermsDiscPercent" ColumnName="TermsDiscPercent" />
+          <ScalarProperty Name="TermsDiscDaysDue" ColumnName="TermsDiscDaysDue" />
+          <ScalarProperty Name="TermsNetDueDate" ColumnName="TermsNetDueDate" />
+          <ScalarProperty Name="TermsNetDays" ColumnName="TermsNetDays" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="TaxTypeCode" ColumnName="TaxTypeCode" />
+          <ScalarProperty Name="TaxAmount" ColumnName="TaxAmount" />
+          <ScalarProperty Name="TaxPercent" ColumnName="TaxPercent" />
+          <ScalarProperty Name="TaxIDNum" ColumnName="TaxIDNum" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_810_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_810_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_810_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="QtyInvoiced" ColumnName="QtyInvoiced" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="UnitPriceCode" ColumnName="UnitPriceCode" />
+          <ScalarProperty Name="ItemDescType" ColumnName="ItemDescType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="PartNumber" ColumnName="PartNumber" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_810_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_810_N1">
+        <MappingFragment StoreEntitySet="tblEDI_810_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_ADX">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_ADX">
+        <MappingFragment StoreEntitySet="tblEDI_820_ADX">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="AdjMonetaryAmount" ColumnName="AdjMonetaryAmount" />
+          <ScalarProperty Name="AdjReasonCode" ColumnName="AdjReasonCode" />
+          <ScalarProperty Name="AdjIDQual" ColumnName="AdjIDQual" />
+          <ScalarProperty Name="AdjReferenceID" ColumnName="AdjReferenceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_820_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="IT1Key" ColumnName="IT1Key" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RMRKey" ColumnName="RMRKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_820_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransHandlingCode" ColumnName="TransHandlingCode" />
+          <ScalarProperty Name="TotalPaymentAmount" ColumnName="TotalPaymentAmount" />
+          <ScalarProperty Name="CreditDebitFlagCode" ColumnName="CreditDebitFlagCode" />
+          <ScalarProperty Name="PaymentMethodCode" ColumnName="PaymentMethodCode" />
+          <ScalarProperty Name="PaymentFormatCode" ColumnName="PaymentFormatCode" />
+          <ScalarProperty Name="SupplierIDNumQual" ColumnName="SupplierIDNumQual" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierAcctNumQual" ColumnName="SupplierAcctNumQual" />
+          <ScalarProperty Name="SupplierAcctNum" ColumnName="SupplierAcctNum" />
+          <ScalarProperty Name="RemittanceDate" ColumnName="RemittanceDate" />
+          <ScalarProperty Name="TraceTypeNum" ColumnName="TraceTypeNum" />
+          <ScalarProperty Name="TraceRefNum1" ColumnName="TraceRefNum1" />
+          <ScalarProperty Name="OrgCompanyID" ColumnName="OrgCompanyID" />
+          <ScalarProperty Name="TraceRefNum2" ColumnName="TraceRefNum2" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_IT1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_IT1">
+        <MappingFragment StoreEntitySet="tblEDI_820_IT1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="IT1Key" ColumnName="IT1Key" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="RMRKey" ColumnName="RMRKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="QtyInvoiced" ColumnName="QtyInvoiced" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="UnitPriceCode" ColumnName="UnitPriceCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_820_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="AssignedNum" ColumnName="AssignedNum" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="EntityIDCodeQual" ColumnName="EntityIDCodeQual" />
+          <ScalarProperty Name="ShipToCode" ColumnName="ShipToCode" />
+          <ScalarProperty Name="ShipToIDCode" ColumnName="ShipToIDCode" />
+          <ScalarProperty Name="ShipToCodeQual" ColumnName="ShipToCodeQual" />
+          <ScalarProperty Name="ShipToNum" ColumnName="ShipToNum" />
+          <ScalarProperty Name="TaxIDNum" ColumnName="TaxIDNum" />
+          <ScalarProperty Name="TaxPaymentTypeCode" ColumnName="TaxPaymentTypeCode" />
+          <ScalarProperty Name="TaxDate" ColumnName="TaxDate" />
+          <ScalarProperty Name="TaxInfoID" ColumnName="TaxInfoID" />
+          <ScalarProperty Name="TaxAmount" ColumnName="TaxAmount" />
+          <ScalarProperty Name="LoopHeaderIDCode" ColumnName="LoopHeaderIDCode" />
+          <ScalarProperty Name="LoopTrailerIDCode" ColumnName="LoopTrailerIDCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_N1">
+        <MappingFragment StoreEntitySet="tblEDI_820_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactNum1Qual" ColumnName="ContactNum1Qual" />
+          <ScalarProperty Name="ContactNum1" ColumnName="ContactNum1" />
+          <ScalarProperty Name="ContactNum2Qual" ColumnName="ContactNum2Qual" />
+          <ScalarProperty Name="ContactNum2" ColumnName="ContactNum2" />
+          <ScalarProperty Name="EmailQual" ColumnName="EmailQual" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_REF">
+        <MappingFragment StoreEntitySet="tblEDI_820_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="IT1Key" ColumnName="IT1Key" />
+          <ScalarProperty Name="RMRKey" ColumnName="RMRKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_RMR">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_RMR">
+        <MappingFragment StoreEntitySet="tblEDI_820_RMR">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="RMRKey" ColumnName="RMRKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="RemittanceIDQual" ColumnName="RemittanceIDQual" />
+          <ScalarProperty Name="RemittanceID" ColumnName="RemittanceID" />
+          <ScalarProperty Name="RemittancePayActionCode" ColumnName="RemittancePayActionCode" />
+          <ScalarProperty Name="NetAmount" ColumnName="NetAmount" />
+          <ScalarProperty Name="GrossAmount" ColumnName="GrossAmount" />
+          <ScalarProperty Name="DiscountAmount" ColumnName="DiscountAmount" />
+          <ScalarProperty Name="AdjReasonCode" ColumnName="AdjReasonCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_SAC">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_SAC">
+        <MappingFragment StoreEntitySet="tblEDI_820_SAC">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="SACKey" ColumnName="SACKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="RMRKey" ColumnName="RMRKey" />
+          <ScalarProperty Name="IT1Key" ColumnName="IT1Key" />
+          <ScalarProperty Name="ChargeID" ColumnName="ChargeID" />
+          <ScalarProperty Name="ChargeCode" ColumnName="ChargeCode" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ChargeHandlingCode" ColumnName="ChargeHandlingCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ChargeNum" ColumnName="ChargeNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_820_SLN">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_820_SLN">
+        <MappingFragment StoreEntitySet="tblEDI_820_SLN">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="SLNKey" ColumnName="SLNKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AdxKey" ColumnName="AdxKey" />
+          <ScalarProperty Name="IT1Key" ColumnName="IT1Key" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="RelationshipCode" ColumnName="RelationshipCode" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="BasisofUnitPriceCode" ColumnName="BasisofUnitPriceCode" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_824_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ApplErrConditionCode" ColumnName="ApplErrConditionCode" />
+          <ScalarProperty Name="ErrorDescrp" ColumnName="ErrorDescrp" />
+          <ScalarProperty Name="ErrorData" ColumnName="ErrorData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_824_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TimeCode" ColumnName="TimeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_824_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="ApplicationAdviceNum" ColumnName="ApplicationAdviceNum" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_824_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="AppAcknowledgmentCode" ColumnName="AppAcknowledgmentCode" />
+          <ScalarProperty Name="OrgDocumentNumQual" ColumnName="OrgDocumentNumQual" />
+          <ScalarProperty Name="OrgDocumentNum" ColumnName="OrgDocumentNum" />
+          <ScalarProperty Name="OrgCreateDateTime" ColumnName="OrgCreateDateTime" />
+          <ScalarProperty Name="TranSetIDCode" ColumnName="TranSetIDCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_N1">
+        <MappingFragment StoreEntitySet="tblEDI_824_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_NTE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_NTE">
+        <MappingFragment StoreEntitySet="tblEDI_824_NTE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="NteKey" ColumnName="NteKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="NoteRefCode" ColumnName="NoteRefCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_QTY">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_QTY">
+        <MappingFragment StoreEntitySet="tblEDI_824_QTY">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="QtyKey" ColumnName="QtyKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="QtyQual" ColumnName="QtyQual" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_824_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_824_REF">
+        <MappingFragment StoreEntitySet="tblEDI_824_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_ATH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_ATH">
+        <MappingFragment StoreEntitySet="tblEDI_830_ATH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AthKey" ColumnName="AthKey" />
+          <ScalarProperty Name="ResourceAuthCode" ColumnName="ResourceAuthCode" />
+          <ScalarProperty Name="ResourceAuth_ThruDate" ColumnName="ResourceAuth_ThruDate" />
+          <ScalarProperty Name="CumAthQty" ColumnName="CumAthQty" />
+          <ScalarProperty Name="CumStartDate" ColumnName="CumStartDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_830_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="FstQty" ColumnName="FstQty" />
+          <ScalarProperty Name="DiffQty" ColumnName="DiffQty" />
+          <ScalarProperty Name="ForecastQual" ColumnName="ForecastQual" />
+          <ScalarProperty Name="ForecastTimeQual" ColumnName="ForecastTimeQual" />
+          <ScalarProperty Name="DatePeriodStart" ColumnName="DatePeriodStart" />
+          <ScalarProperty Name="DatePeriodEnd" ColumnName="DatePeriodEnd" />
+          <ScalarProperty Name="DateTimeQual" ColumnName="DateTimeQual" />
+          <ScalarProperty Name="RefNumQual" ColumnName="RefNumQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="ShipPatternCode" ColumnName="ShipPatternCode" />
+          <ScalarProperty Name="ShipPatternTimeCode" ColumnName="ShipPatternTimeCode" />
+          <ScalarProperty Name="ReleaseNumber" ColumnName="ReleaseNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_830_HEADER">
+          <ScalarProperty Name="blnEmailFlag" ColumnName="blnEmailFlag" />
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="ReferenceID" ColumnName="ReferenceID" />
+          <ScalarProperty Name="ReleaseNumber" ColumnName="ReleaseNumber" />
+          <ScalarProperty Name="ScheduleTypeQual" ColumnName="ScheduleTypeQual" />
+          <ScalarProperty Name="ScheduleQtyQual" ColumnName="ScheduleQtyQual" />
+          <ScalarProperty Name="ForecastHorizonDateStart" ColumnName="ForecastHorizonDateStart" />
+          <ScalarProperty Name="ForecastHorizonEndDate" ColumnName="ForecastHorizonEndDate" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="AdminFuncCode_hdr" ColumnName="AdminFuncCode_hdr" />
+          <ScalarProperty Name="AdminContact_hdr" ColumnName="AdminContact_hdr" />
+          <ScalarProperty Name="AdminCommNumQual_hdr" ColumnName="AdminCommNumQual_hdr" />
+          <ScalarProperty Name="AdminPhone_hdr" ColumnName="AdminPhone_hdr" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="RtgSeqCode" ColumnName="RtgSeqCode" />
+          <ScalarProperty Name="IDCodeQual" ColumnName="IDCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+          <ScalarProperty Name="TransportationType" ColumnName="TransportationType" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="CummsDateStart" ColumnName="CummsDateStart" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="PlantName" ColumnName="PlantName" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="PlannerName" ColumnName="PlannerName" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="CTT01" ColumnName="CTT01" />
+          <ScalarProperty Name="CTT02" ColumnName="CTT02" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_830_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ProdIDQual" ColumnName="ProdIDQual" />
+          <ScalarProperty Name="BuyersPartID" ColumnName="BuyersPartID" />
+          <ScalarProperty Name="ProdServiceQual" ColumnName="ProdServiceQual" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="PartDescQual" ColumnName="PartDescQual" />
+          <ScalarProperty Name="PartDescription" ColumnName="PartDescription" />
+          <ScalarProperty Name="ReleaseNumQual" ColumnName="ReleaseNumQual" />
+          <ScalarProperty Name="ReleaseNum" ColumnName="ReleaseNum" />
+          <ScalarProperty Name="SubLineAssignID" ColumnName="SubLineAssignID" />
+          <ScalarProperty Name="SubLineConfigCode" ColumnName="SubLineConfigCode" />
+          <ScalarProperty Name="SubLineQty" ColumnName="SubLineQty" />
+          <ScalarProperty Name="SubLineUOM" ColumnName="SubLineUOM" />
+          <ScalarProperty Name="SubLineProdServQual" ColumnName="SubLineProdServQual" />
+          <ScalarProperty Name="SubLineProdServID" ColumnName="SubLineProdServID" />
+          <ScalarProperty Name="PartRelStatusCode" ColumnName="PartRelStatusCode" />
+          <ScalarProperty Name="PartRelDescription" ColumnName="PartRelDescription" />
+          <ScalarProperty Name="ProdItmDescType" ColumnName="ProdItmDescType" />
+          <ScalarProperty Name="ProdItmCharCode" ColumnName="ProdItmCharCode" />
+          <ScalarProperty Name="ProdItmDescription" ColumnName="ProdItmDescription" />
+          <ScalarProperty Name="MeasurementRefID" ColumnName="MeasurementRefID" />
+          <ScalarProperty Name="MeasurementQual" ColumnName="MeasurementQual" />
+          <ScalarProperty Name="MeasurementVal" ColumnName="MeasurementVal" />
+          <ScalarProperty Name="UoBMeasurementCode" ColumnName="UoBMeasurementCode" />
+          <ScalarProperty Name="RangeMax" ColumnName="RangeMax" />
+          <ScalarProperty Name="RoutingSeqCode" ColumnName="RoutingSeqCode" />
+          <ScalarProperty Name="IDCodeQual" ColumnName="IDCodeQual" />
+          <ScalarProperty Name="TransIDCode" ColumnName="TransIDCode" />
+          <ScalarProperty Name="TransMethodCode" ColumnName="TransMethodCode" />
+          <ScalarProperty Name="AdminFuncCode_lin" ColumnName="AdminFuncCode_lin" />
+          <ScalarProperty Name="AdminContact_lin" ColumnName="AdminContact_lin" />
+          <ScalarProperty Name="AdminCommNumQual_lin" ColumnName="AdminCommNumQual_lin" />
+          <ScalarProperty Name="AdminPhone_lin" ColumnName="AdminPhone_lin" />
+          <ScalarProperty Name="MarksNumQual" ColumnName="MarksNumQual" />
+          <ScalarProperty Name="MarksNum" ColumnName="MarksNum" />
+          <ScalarProperty Name="QtyPerCont" ColumnName="QtyPerCont" />
+          <ScalarProperty Name="ContType" ColumnName="ContType" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="ReferenceNum" ColumnName="ReferenceNum" />
+          <ScalarProperty Name="SupplierPartID" ColumnName="SupplierPartID" />
+          <ScalarProperty Name="DCPartLevel" ColumnName="DCPartLevel" />
+          <ScalarProperty Name="BuyersEngChangeLevel" ColumnName="BuyersEngChangeLevel" />
+          <ScalarProperty Name="EngChangeLevel" ColumnName="EngChangeLevel" />
+          <ScalarProperty Name="CTT01" ColumnName="CTT01" />
+          <ScalarProperty Name="CTT02" ColumnName="CTT02" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_N1">
+        <MappingFragment StoreEntitySet="tblEDI_830_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SplIDCodeQual" ColumnName="SplIDCodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CommQual" ColumnName="CommQual" />
+          <ScalarProperty Name="CommNum" ColumnName="CommNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_REF">
+        <MappingFragment StoreEntitySet="tblEDI_830_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="ShpKey" ColumnName="ShpKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_SHP">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_SHP">
+        <MappingFragment StoreEntitySet="tblEDI_830_SHP">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ShpKey" ColumnName="ShpKey" />
+          <ScalarProperty Name="QtyQual" ColumnName="QtyQual" />
+          <ScalarProperty Name="ShipQty" ColumnName="ShipQty" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="BegInventoryDate" ColumnName="BegInventoryDate" />
+          <ScalarProperty Name="LastShipDate" ColumnName="LastShipDate" />
+          <ScalarProperty Name="ShipDate" ColumnName="ShipDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_830_SLN">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_830_SLN">
+        <MappingFragment StoreEntitySet="tblEDI_830_SLN">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SlnKey" ColumnName="SlnKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="ConfigCode" ColumnName="ConfigCode" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="ProdServiceIDQual" ColumnName="ProdServiceIDQual" />
+          <ScalarProperty Name="ProdServiceID" ColumnName="ProdServiceID" />
+          <ScalarProperty Name="ProdServiceIDQual2" ColumnName="ProdServiceIDQual2" />
+          <ScalarProperty Name="ProdServiceID2" ColumnName="ProdServiceID2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_832_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="PriceIDCode" ColumnName="PriceIDCode" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="PricingQty" ColumnName="PricingQty" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_832_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_832_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="CatalogPurposeCode" ColumnName="CatalogPurposeCode" />
+          <ScalarProperty Name="TransSetPurposeCode" ColumnName="TransSetPurposeCode" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_832_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ProdIDQual" ColumnName="ProdIDQual" />
+          <ScalarProperty Name="BuyersPartID" ColumnName="BuyersPartID" />
+          <ScalarProperty Name="DCPartLevelQual" ColumnName="DCPartLevelQual" />
+          <ScalarProperty Name="DCPartLevel" ColumnName="DCPartLevel" />
+          <ScalarProperty Name="PartDscrptQual" ColumnName="PartDscrptQual" />
+          <ScalarProperty Name="PartDescription" ColumnName="PartDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_N1">
+        <MappingFragment StoreEntitySet="tblEDI_832_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CorporateName" ColumnName="CorporateName" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactNum1Qual" ColumnName="ContactNum1Qual" />
+          <ScalarProperty Name="ContactNum1" ColumnName="ContactNum1" />
+          <ScalarProperty Name="ContactNum2Qual" ColumnName="ContactNum2Qual" />
+          <ScalarProperty Name="ContactNum2" ColumnName="ContactNum2" />
+          <ScalarProperty Name="EmailQual" ColumnName="EmailQual" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_832_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_832_REF">
+        <MappingFragment StoreEntitySet="tblEDI_832_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="PriceQual" ColumnName="PriceQual" />
+          <ScalarProperty Name="PriceReference" ColumnName="PriceReference" />
+          <ScalarProperty Name="PriceRefDescrp" ColumnName="PriceRefDescrp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_CTP">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_CTP">
+        <MappingFragment StoreEntitySet="tblEDI_850_CTP">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="CtpKey" ColumnName="CtpKey" />
+          <ScalarProperty Name="PriceIDCode" ColumnName="PriceIDCode" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_850_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_850_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="POTypeCode" ColumnName="POTypeCode" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="ReleaseNum" ColumnName="ReleaseNum" />
+          <ScalarProperty Name="PODate" ColumnName="PODate" />
+          <ScalarProperty Name="NTE_NoteRefCode" ColumnName="NTE_NoteRefCode" />
+          <ScalarProperty Name="NTE_FreeFormMsg" ColumnName="NTE_FreeFormMsg" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="ExchangeRate" ColumnName="ExchangeRate" />
+          <ScalarProperty Name="FOBShpMethod" ColumnName="FOBShpMethod" />
+          <ScalarProperty Name="FOBLocationQual" ColumnName="FOBLocationQual" />
+          <ScalarProperty Name="FOBDescription" ColumnName="FOBDescription" />
+          <ScalarProperty Name="FOBLocationQual2" ColumnName="FOBLocationQual2" />
+          <ScalarProperty Name="FOBDescription2" ColumnName="FOBDescription2" />
+          <ScalarProperty Name="TransMethod" ColumnName="TransMethod" />
+          <ScalarProperty Name="CarrierName" ColumnName="CarrierName" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="AdminFuncCode_hdr" ColumnName="AdminFuncCode_hdr" />
+          <ScalarProperty Name="AdminContact_hdr" ColumnName="AdminContact_hdr" />
+          <ScalarProperty Name="AdminCommNumQual_hdr" ColumnName="AdminCommNumQual_hdr" />
+          <ScalarProperty Name="AdminPhone_hdr" ColumnName="AdminPhone_hdr" />
+          <ScalarProperty Name="CTPClass" ColumnName="CTPClass" />
+          <ScalarProperty Name="STPPriceQual" ColumnName="STPPriceQual" />
+          <ScalarProperty Name="TextMessageCode" ColumnName="TextMessageCode" />
+          <ScalarProperty Name="Check864" ColumnName="Check864" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="FOBTransTermsQual" ColumnName="FOBTransTermsQual" />
+          <ScalarProperty Name="FOBTransTermsCode" ColumnName="FOBTransTermsCode" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_ITA">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_ITA">
+        <MappingFragment StoreEntitySet="tblEDI_850_ITA">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ItaKey" ColumnName="ItaKey" />
+          <ScalarProperty Name="AllowanceID" ColumnName="AllowanceID" />
+          <ScalarProperty Name="SpecialServiceCode" ColumnName="SpecialServiceCode" />
+          <ScalarProperty Name="AllowanceMethodofHdlCode" ColumnName="AllowanceMethodofHdlCode" />
+          <ScalarProperty Name="AllowanceNum" ColumnName="AllowanceNum" />
+          <ScalarProperty Name="AllowanceTtlAmt" ColumnName="AllowanceTtlAmt" />
+          <ScalarProperty Name="UBMsrCode" ColumnName="UBMsrCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SpecialChargeCode" ColumnName="SpecialChargeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_ITD">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_ITD">
+        <MappingFragment StoreEntitySet="tblEDI_850_ITD">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ItdKey" ColumnName="ItdKey" />
+          <ScalarProperty Name="TermsTypeCode" ColumnName="TermsTypeCode" />
+          <ScalarProperty Name="TermsBasisDateCode" ColumnName="TermsBasisDateCode" />
+          <ScalarProperty Name="TermsDiscountPercent" ColumnName="TermsDiscountPercent" />
+          <ScalarProperty Name="TermsDiscountDueDate" ColumnName="TermsDiscountDueDate" />
+          <ScalarProperty Name="TermsDiscountDaysDue" ColumnName="TermsDiscountDaysDue" />
+          <ScalarProperty Name="TermsNetDueDate" ColumnName="TermsNetDueDate" />
+          <ScalarProperty Name="TermsNetDays" ColumnName="TermsNetDays" />
+          <ScalarProperty Name="TermsDiscountAmt" ColumnName="TermsDiscountAmt" />
+          <ScalarProperty Name="TermsDifferredDueDate" ColumnName="TermsDifferredDueDate" />
+          <ScalarProperty Name="DifferredAmtDue" ColumnName="DifferredAmtDue" />
+          <ScalarProperty Name="PctOfInvoicePayable" ColumnName="PctOfInvoicePayable" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DayOfMonth" ColumnName="DayOfMonth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_850_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="POLineNum" ColumnName="POLineNum" />
+          <ScalarProperty Name="QtyOrdered" ColumnName="QtyOrdered" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="MfgBasePartNumQual" ColumnName="MfgBasePartNumQual" />
+          <ScalarProperty Name="BuyersPartID" ColumnName="BuyersPartID" />
+          <ScalarProperty Name="DCPartLevelQual" ColumnName="DCPartLevelQual" />
+          <ScalarProperty Name="DCPartLevel" ColumnName="DCPartLevel" />
+          <ScalarProperty Name="PartDescQual" ColumnName="PartDescQual" />
+          <ScalarProperty Name="PartDescription" ColumnName="PartDescription" />
+          <ScalarProperty Name="ProjectNumQual" ColumnName="ProjectNumQual" />
+          <ScalarProperty Name="ProjectNum" ColumnName="ProjectNum" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="BuyersEngChangeLevel" ColumnName="BuyersEngChangeLevel" />
+          <ScalarProperty Name="EngChangeLevel" ColumnName="EngChangeLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_N1">
+        <MappingFragment StoreEntitySet="tblEDI_850_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SplIDCodeQual" ColumnName="SplIDCodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CommQual" ColumnName="CommQual" />
+          <ScalarProperty Name="CommNum" ColumnName="CommNum" />
+          <ScalarProperty Name="SCACCodeQual" ColumnName="SCACCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_N9">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_N9">
+        <MappingFragment StoreEntitySet="tblEDI_850_N9">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N9Key" ColumnName="N9Key" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Msg" ColumnName="Msg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_NTE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_NTE">
+        <MappingFragment StoreEntitySet="tblEDI_850_NTE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="NteKey" ColumnName="NteKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="NoteRefCode" ColumnName="NoteRefCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_PID">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_PID">
+        <MappingFragment StoreEntitySet="tblEDI_850_PID">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PidKey" ColumnName="PidKey" />
+          <ScalarProperty Name="ItemDescType" ColumnName="ItemDescType" />
+          <ScalarProperty Name="ProductCharCode" ColumnName="ProductCharCode" />
+          <ScalarProperty Name="ItemDescQual" ColumnName="ItemDescQual" />
+          <ScalarProperty Name="ProductDescCode" ColumnName="ProductDescCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SLPCode" ColumnName="SLPCode" />
+          <ScalarProperty Name="SlnKey" ColumnName="SlnKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_PO3">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_PO3">
+        <MappingFragment StoreEntitySet="tblEDI_850_PO3">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PO3Key" ColumnName="PO3Key" />
+          <ScalarProperty Name="ChangeReasonCode" ColumnName="ChangeReasonCode" />
+          <ScalarProperty Name="PriceQual" ColumnName="PriceQual" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="BasisOfUnitPriceCode" ColumnName="BasisOfUnitPriceCode" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitBasisMsrCode" ColumnName="UnitBasisMsrCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_REF">
+        <MappingFragment StoreEntitySet="tblEDI_850_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_SAC">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_SAC">
+        <MappingFragment StoreEntitySet="tblEDI_850_SAC">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SacKey" ColumnName="SacKey" />
+          <ScalarProperty Name="AllowanceChargeIndicator" ColumnName="AllowanceChargeIndicator" />
+          <ScalarProperty Name="SACCode" ColumnName="SACCode" />
+          <ScalarProperty Name="AgencyQual" ColumnName="AgencyQual" />
+          <ScalarProperty Name="AgencyCode" ColumnName="AgencyCode" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="MethodHandlingCode" ColumnName="MethodHandlingCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_SCH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_SCH">
+        <MappingFragment StoreEntitySet="tblEDI_850_SCH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SchKey" ColumnName="SchKey" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DtmReqQual" ColumnName="DtmReqQual" />
+          <ScalarProperty Name="DeliveryReqDate" ColumnName="DeliveryReqDate" />
+          <ScalarProperty Name="DtmPromisedQual" ColumnName="DtmPromisedQual" />
+          <ScalarProperty Name="DeliveryPromisedDate" ColumnName="DeliveryPromisedDate" />
+          <ScalarProperty Name="ContainerQty" ColumnName="ContainerQty" />
+          <ScalarProperty Name="ContainerType" ColumnName="ContainerType" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_SHH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_SHH">
+        <MappingFragment StoreEntitySet="tblEDI_850_SHH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ShhKey" ColumnName="ShhKey" />
+          <ScalarProperty Name="SchedulingCode" ColumnName="SchedulingCode" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_850_SLN">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_850_SLN">
+        <MappingFragment StoreEntitySet="tblEDI_850_SLN">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SlnKey" ColumnName="SlnKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="RelationshipCode" ColumnName="RelationshipCode" />
+          <ScalarProperty Name="ProductIDQual" ColumnName="ProductIDQual" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_856_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_856_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_856_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="ASNNumber" ColumnName="ASNNumber" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="ShipDate" ColumnName="ShipDate" />
+          <ScalarProperty Name="HashTotal" ColumnName="HashTotal" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_856_HL2">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_856_HL2">
+        <MappingFragment StoreEntitySet="tblEDI_856_HL2">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HL2Key" ColumnName="HL2Key" />
+          <ScalarProperty Name="HLIDNo" ColumnName="HLIDNo" />
+          <ScalarProperty Name="HLParentIDNo" ColumnName="HLParentIDNo" />
+          <ScalarProperty Name="HLCode" ColumnName="HLCode" />
+          <ScalarProperty Name="PkgIDQual" ColumnName="PkgIDQual" />
+          <ScalarProperty Name="PkgType" ColumnName="PkgType" />
+          <ScalarProperty Name="ReturnSNIDQual" ColumnName="ReturnSNIDQual" />
+          <ScalarProperty Name="ReturnSN" ColumnName="ReturnSN" />
+          <ScalarProperty Name="MasterMixLabelQual" ColumnName="MasterMixLabelQual" />
+          <ScalarProperty Name="MasterMixSN" ColumnName="MasterMixSN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_856_HL3">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_856_HL3">
+        <MappingFragment StoreEntitySet="tblEDI_856_HL3">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HL2Key" ColumnName="HL2Key" />
+          <ScalarProperty Name="HL3Key" ColumnName="HL3Key" />
+          <ScalarProperty Name="HLIDNo" ColumnName="HLIDNo" />
+          <ScalarProperty Name="HLParentIDNo" ColumnName="HLParentIDNo" />
+          <ScalarProperty Name="HLCode" ColumnName="HLCode" />
+          <ScalarProperty Name="PartNoQual" ColumnName="PartNoQual" />
+          <ScalarProperty Name="PartNo" ColumnName="PartNo" />
+          <ScalarProperty Name="DCPartLevelQual" ColumnName="DCPartLevelQual" />
+          <ScalarProperty Name="DCPartLevel" ColumnName="DCPartLevel" />
+          <ScalarProperty Name="LotNoQual" ColumnName="LotNoQual" />
+          <ScalarProperty Name="LotNo" ColumnName="LotNo" />
+          <ScalarProperty Name="ShipSchedQual" ColumnName="ShipSchedQual" />
+          <ScalarProperty Name="ShipSchedNo" ColumnName="ShipSchedNo" />
+          <ScalarProperty Name="ProjNoQual" ColumnName="ProjNoQual" />
+          <ScalarProperty Name="ProjNo" ColumnName="ProjNo" />
+          <ScalarProperty Name="POQual" ColumnName="POQual" />
+          <ScalarProperty Name="PONo" ColumnName="PONo" />
+          <ScalarProperty Name="IPPTag1Qual" ColumnName="IPPTag1Qual" />
+          <ScalarProperty Name="IPPTag1No" ColumnName="IPPTag1No" />
+          <ScalarProperty Name="IPPTag1ReasonQual" ColumnName="IPPTag1ReasonQual" />
+          <ScalarProperty Name="IPPTag1ReasonCode" ColumnName="IPPTag1ReasonCode" />
+          <ScalarProperty Name="IPPTag2Qual" ColumnName="IPPTag2Qual" />
+          <ScalarProperty Name="IPPTag2No" ColumnName="IPPTag2No" />
+          <ScalarProperty Name="IPPTag2ReasonQual" ColumnName="IPPTag2ReasonQual" />
+          <ScalarProperty Name="IPPTag2ReasonCode" ColumnName="IPPTag2ReasonCode" />
+          <ScalarProperty Name="SupplierLotNoQual" ColumnName="SupplierLotNoQual" />
+          <ScalarProperty Name="SupplierLotNo" ColumnName="SupplierLotNo" />
+          <ScalarProperty Name="ReturnSNIDQual" ColumnName="ReturnSNIDQual" />
+          <ScalarProperty Name="ReturnSN" ColumnName="ReturnSN" />
+          <ScalarProperty Name="ContPkgIDQual" ColumnName="ContPkgIDQual" />
+          <ScalarProperty Name="ContPkgType" ColumnName="ContPkgType" />
+          <ScalarProperty Name="CountryOfOrgQual" ColumnName="CountryOfOrgQual" />
+          <ScalarProperty Name="CountryOfOrg" ColumnName="CountryOfOrg" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="ContLabelQual" ColumnName="ContLabelQual" />
+          <ScalarProperty Name="ContLabelSN" ColumnName="ContLabelSN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_856_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_856_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_856_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="HLIDNo" ColumnName="HLIDNo" />
+          <ScalarProperty Name="HLCode" ColumnName="HLCode" />
+          <ScalarProperty Name="WeightQual" ColumnName="WeightQual" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="SCACCodeQual" ColumnName="SCACCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+          <ScalarProperty Name="TrackingNo" ColumnName="TrackingNo" />
+          <ScalarProperty Name="EquipDescCode" ColumnName="EquipDescCode" />
+          <ScalarProperty Name="TrailerNo" ColumnName="TrailerNo" />
+          <ScalarProperty Name="SpecialHandlingCode" ColumnName="SpecialHandlingCode" />
+          <ScalarProperty Name="BOLQual" ColumnName="BOLQual" />
+          <ScalarProperty Name="BOLNo" ColumnName="BOLNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_856_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_856_N1">
+        <MappingFragment StoreEntitySet="tblEDI_856_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_CTP">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_CTP">
+        <MappingFragment StoreEntitySet="tblEDI_860_CTP">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="CtpKey" ColumnName="CtpKey" />
+          <ScalarProperty Name="PriceIDCode" ColumnName="PriceIDCode" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_860_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_860_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="POTypeCode" ColumnName="POTypeCode" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="ChangeOrderSeqNum" ColumnName="ChangeOrderSeqNum" />
+          <ScalarProperty Name="PODate" ColumnName="PODate" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="ExchangeRate" ColumnName="ExchangeRate" />
+          <ScalarProperty Name="FOBShpMethod" ColumnName="FOBShpMethod" />
+          <ScalarProperty Name="FOBLocationQual" ColumnName="FOBLocationQual" />
+          <ScalarProperty Name="FOBDescription" ColumnName="FOBDescription" />
+          <ScalarProperty Name="FOBLocationQual2" ColumnName="FOBLocationQual2" />
+          <ScalarProperty Name="FOBDescription2" ColumnName="FOBDescription2" />
+          <ScalarProperty Name="TransMethod" ColumnName="TransMethod" />
+          <ScalarProperty Name="CarrierName" ColumnName="CarrierName" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="AdminFuncCode_hdr" ColumnName="AdminFuncCode_hdr" />
+          <ScalarProperty Name="AdminContact_hdr" ColumnName="AdminContact_hdr" />
+          <ScalarProperty Name="AdminCommNumQual_hdr" ColumnName="AdminCommNumQual_hdr" />
+          <ScalarProperty Name="AdminPhone_hdr" ColumnName="AdminPhone_hdr" />
+          <ScalarProperty Name="CTPClass" ColumnName="CTPClass" />
+          <ScalarProperty Name="STPPriceQual" ColumnName="STPPriceQual" />
+          <ScalarProperty Name="TextMessageCode" ColumnName="TextMessageCode" />
+          <ScalarProperty Name="Check864" ColumnName="Check864" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="ReleaseNum" ColumnName="ReleaseNum" />
+          <ScalarProperty Name="FOBTransTermsQual" ColumnName="FOBTransTermsQual" />
+          <ScalarProperty Name="FOBTransTermsCode" ColumnName="FOBTransTermsCode" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_ITA">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_ITA">
+        <MappingFragment StoreEntitySet="tblEDI_860_ITA">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ItaKey" ColumnName="ItaKey" />
+          <ScalarProperty Name="AllowanceID" ColumnName="AllowanceID" />
+          <ScalarProperty Name="SpecialServiceCode" ColumnName="SpecialServiceCode" />
+          <ScalarProperty Name="AllowanceMethodofHdlCode" ColumnName="AllowanceMethodofHdlCode" />
+          <ScalarProperty Name="AllowanceNum" ColumnName="AllowanceNum" />
+          <ScalarProperty Name="AllowanceTtlAmt" ColumnName="AllowanceTtlAmt" />
+          <ScalarProperty Name="UBMsrCode" ColumnName="UBMsrCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SpecialChargeCode" ColumnName="SpecialChargeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_ITD">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_ITD">
+        <MappingFragment StoreEntitySet="tblEDI_860_ITD">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ItdKey" ColumnName="ItdKey" />
+          <ScalarProperty Name="TermsTypeCode" ColumnName="TermsTypeCode" />
+          <ScalarProperty Name="TermsBasisDateCode" ColumnName="TermsBasisDateCode" />
+          <ScalarProperty Name="TermsDiscountPercent" ColumnName="TermsDiscountPercent" />
+          <ScalarProperty Name="TermsDiscountDueDate" ColumnName="TermsDiscountDueDate" />
+          <ScalarProperty Name="TermsDiscountDaysDue" ColumnName="TermsDiscountDaysDue" />
+          <ScalarProperty Name="TermsNetDueDate" ColumnName="TermsNetDueDate" />
+          <ScalarProperty Name="TermsNetDays" ColumnName="TermsNetDays" />
+          <ScalarProperty Name="TermsDiscountAmt" ColumnName="TermsDiscountAmt" />
+          <ScalarProperty Name="TermsDifferredDueDate" ColumnName="TermsDifferredDueDate" />
+          <ScalarProperty Name="DifferredAmtDue" ColumnName="DifferredAmtDue" />
+          <ScalarProperty Name="PctOfInvoicePayable" ColumnName="PctOfInvoicePayable" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DayOfMonth" ColumnName="DayOfMonth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_860_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="POLineNum" ColumnName="POLineNum" />
+          <ScalarProperty Name="LineItemChange" ColumnName="LineItemChange" />
+          <ScalarProperty Name="QtyOrdered" ColumnName="QtyOrdered" />
+          <ScalarProperty Name="QtyLeftToRcv" ColumnName="QtyLeftToRcv" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="ProdID1Qual" ColumnName="ProdID1Qual" />
+          <ScalarProperty Name="ProdID1" ColumnName="ProdID1" />
+          <ScalarProperty Name="ProdID2Qual" ColumnName="ProdID2Qual" />
+          <ScalarProperty Name="ProdID2" ColumnName="ProdID2" />
+          <ScalarProperty Name="ProdID3Qual" ColumnName="ProdID3Qual" />
+          <ScalarProperty Name="ProdID3" ColumnName="ProdID3" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="UOMCode" ColumnName="UOMCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_MSG">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_MSG">
+        <MappingFragment StoreEntitySet="tblEDI_860_MSG">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="MsgKey" ColumnName="MsgKey" />
+          <ScalarProperty Name="N9Key" ColumnName="N9Key" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="MsgText" ColumnName="MsgText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_N1">
+        <MappingFragment StoreEntitySet="tblEDI_860_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SplIDCodeQual" ColumnName="SplIDCodeQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CommQual" ColumnName="CommQual" />
+          <ScalarProperty Name="CommNum" ColumnName="CommNum" />
+          <ScalarProperty Name="SCACCodeQual" ColumnName="SCACCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="CommQual2" ColumnName="CommQual2" />
+          <ScalarProperty Name="CommNum2" ColumnName="CommNum2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_N9">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_N9">
+        <MappingFragment StoreEntitySet="tblEDI_860_N9">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N9Key" ColumnName="N9Key" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Msg" ColumnName="Msg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_NTE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_NTE">
+        <MappingFragment StoreEntitySet="tblEDI_860_NTE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="NteKey" ColumnName="NteKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="NoteRefCode" ColumnName="NoteRefCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="N9Key" ColumnName="N9Key" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_PID">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_PID">
+        <MappingFragment StoreEntitySet="tblEDI_860_PID">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PidKey" ColumnName="PidKey" />
+          <ScalarProperty Name="ItemDescType" ColumnName="ItemDescType" />
+          <ScalarProperty Name="ProductCharCode" ColumnName="ProductCharCode" />
+          <ScalarProperty Name="ItemDescQual" ColumnName="ItemDescQual" />
+          <ScalarProperty Name="ProductDescCode" ColumnName="ProductDescCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SLPCode" ColumnName="SLPCode" />
+          <ScalarProperty Name="SlnKey" ColumnName="SlnKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_PKG">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_PKG">
+        <MappingFragment StoreEntitySet="tblEDI_860_PKG">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PkgKey" ColumnName="PkgKey" />
+          <ScalarProperty Name="ItemDescrpType" ColumnName="ItemDescrpType" />
+          <ScalarProperty Name="PkgCharCode" ColumnName="PkgCharCode" />
+          <ScalarProperty Name="PkgDescription" ColumnName="PkgDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_PO3">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_PO3">
+        <MappingFragment StoreEntitySet="tblEDI_860_PO3">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="PO3Key" ColumnName="PO3Key" />
+          <ScalarProperty Name="ChangeReasonCode" ColumnName="ChangeReasonCode" />
+          <ScalarProperty Name="PriceQual" ColumnName="PriceQual" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="BasisOfUnitPriceCode" ColumnName="BasisOfUnitPriceCode" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitBasisMsrCode" ColumnName="UnitBasisMsrCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_REF">
+        <MappingFragment StoreEntitySet="tblEDI_860_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_SAC">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_SAC">
+        <MappingFragment StoreEntitySet="tblEDI_860_SAC">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SacKey" ColumnName="SacKey" />
+          <ScalarProperty Name="AllowanceChargeIndicator" ColumnName="AllowanceChargeIndicator" />
+          <ScalarProperty Name="SACCode" ColumnName="SACCode" />
+          <ScalarProperty Name="AgencyQual" ColumnName="AgencyQual" />
+          <ScalarProperty Name="AgencyCode" ColumnName="AgencyCode" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="MethodHandlingCode" ColumnName="MethodHandlingCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_SCH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_SCH">
+        <MappingFragment StoreEntitySet="tblEDI_860_SCH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SchKey" ColumnName="SchKey" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DtmReqQual" ColumnName="DtmReqQual" />
+          <ScalarProperty Name="DeliveryReqDate" ColumnName="DeliveryReqDate" />
+          <ScalarProperty Name="DtmPromisedQual" ColumnName="DtmPromisedQual" />
+          <ScalarProperty Name="DeliveryPromisedDate" ColumnName="DeliveryPromisedDate" />
+          <ScalarProperty Name="ContainerQty" ColumnName="ContainerQty" />
+          <ScalarProperty Name="ContainerType" ColumnName="ContainerType" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_SHH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_SHH">
+        <MappingFragment StoreEntitySet="tblEDI_860_SHH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ShhKey" ColumnName="ShhKey" />
+          <ScalarProperty Name="SchedulingCode" ColumnName="SchedulingCode" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_SLN">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_SLN">
+        <MappingFragment StoreEntitySet="tblEDI_860_SLN">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SlnKey" ColumnName="SlnKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="RelationshipCode" ColumnName="RelationshipCode" />
+          <ScalarProperty Name="ProductIDQual" ColumnName="ProductIDQual" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_860_TD5">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_860_TD5">
+        <MappingFragment StoreEntitySet="tblEDI_860_TD5">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="TD5Key" ColumnName="TD5Key" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="TransMethod" ColumnName="TransMethod" />
+          <ScalarProperty Name="CarrierName" ColumnName="CarrierName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_861_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_861_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_861_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TimeCode" ColumnName="TimeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_861_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_861_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_861_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="ReceivingAdviceNum" ColumnName="ReceivingAdviceNum" />
+          <ScalarProperty Name="ReceivingAdviceTypeCode" ColumnName="ReceivingAdviceTypeCode" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="ReceiptDateTime" ColumnName="ReceiptDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_861_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_861_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_861_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RecvdQty" ColumnName="RecvdQty" />
+          <ScalarProperty Name="RecvdQtyUOM" ColumnName="RecvdQtyUOM" />
+          <ScalarProperty Name="RecvdConditionCode" ColumnName="RecvdConditionCode" />
+          <ScalarProperty Name="ReturnQty" ColumnName="ReturnQty" />
+          <ScalarProperty Name="ReturnQtyUOM" ColumnName="ReturnQtyUOM" />
+          <ScalarProperty Name="QuestionQty" ColumnName="QuestionQty" />
+          <ScalarProperty Name="QuestionQtyUOM" ColumnName="QuestionQtyUOM" />
+          <ScalarProperty Name="QuestionConditionCode" ColumnName="QuestionConditionCode" />
+          <ScalarProperty Name="Question2Qty" ColumnName="Question2Qty" />
+          <ScalarProperty Name="Question2QtyUOM" ColumnName="Question2QtyUOM" />
+          <ScalarProperty Name="Question2ConditionCode" ColumnName="Question2ConditionCode" />
+          <ScalarProperty Name="ShippedUnit" ColumnName="ShippedUnit" />
+          <ScalarProperty Name="ShippedUnitUOM" ColumnName="ShippedUnitUOM" />
+          <ScalarProperty Name="ProdIDQual" ColumnName="ProdIDQual" />
+          <ScalarProperty Name="BuyersPartID" ColumnName="BuyersPartID" />
+          <ScalarProperty Name="ProdIDQual2" ColumnName="ProdIDQual2" />
+          <ScalarProperty Name="BuyersEngChangeLevel" ColumnName="BuyersEngChangeLevel" />
+          <ScalarProperty Name="ShipScheduleQual" ColumnName="ShipScheduleQual" />
+          <ScalarProperty Name="ShipScheduleNum" ColumnName="ShipScheduleNum" />
+          <ScalarProperty Name="ProjNumQual" ColumnName="ProjNumQual" />
+          <ScalarProperty Name="ProjNum" ColumnName="ProjNum" />
+          <ScalarProperty Name="POQual" ColumnName="POQual" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="ContainerLabelSNQual" ColumnName="ContainerLabelSNQual" />
+          <ScalarProperty Name="ContainerLabelSN" ColumnName="ContainerLabelSN" />
+          <ScalarProperty Name="PalletLabelSNQual" ColumnName="PalletLabelSNQual" />
+          <ScalarProperty Name="PalletLabelSN" ColumnName="PalletLabelSN" />
+          <ScalarProperty Name="BOLNum" ColumnName="BOLNum" />
+          <ScalarProperty Name="ASN_PLNum" ColumnName="ASN_PLNum" />
+          <ScalarProperty Name="ItemDescriptionType" ColumnName="ItemDescriptionType" />
+          <ScalarProperty Name="ItemDescriptionCode" ColumnName="ItemDescriptionCode" />
+          <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_861_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_861_N1">
+        <MappingFragment StoreEntitySet="tblEDI_861_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_861_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_861_REF">
+        <MappingFragment StoreEntitySet="tblEDI_861_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="RefID" ColumnName="RefID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_ATH">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_ATH">
+        <MappingFragment StoreEntitySet="tblEDI_862_ATH">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AthKey" ColumnName="AthKey" />
+          <ScalarProperty Name="ResourceAuthCode" ColumnName="ResourceAuthCode" />
+          <ScalarProperty Name="ResourceAuth_ThruDate" ColumnName="ResourceAuth_ThruDate" />
+          <ScalarProperty Name="CumAthQty" ColumnName="CumAthQty" />
+          <ScalarProperty Name="AthQty" ColumnName="AthQty" />
+          <ScalarProperty Name="CumStartDate" ColumnName="CumStartDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_862_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="TotalDailyQty" ColumnName="TotalDailyQty" />
+          <ScalarProperty Name="DiffQty" ColumnName="DiffQty" />
+          <ScalarProperty Name="ForecastQual" ColumnName="ForecastQual" />
+          <ScalarProperty Name="ForecastTimeQual" ColumnName="ForecastTimeQual" />
+          <ScalarProperty Name="FST_DeliveryShipmentDate" ColumnName="FST_DeliveryShipmentDate" />
+          <ScalarProperty Name="DateTimeQual" ColumnName="DateTimeQual" />
+          <ScalarProperty Name="DeliveryShipDate" ColumnName="DeliveryShipDate" />
+          <ScalarProperty Name="RefNumQual" ColumnName="RefNumQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_862_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="FstKey" ColumnName="FstKey" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="CreateDateTime" ColumnName="CreateDateTime" />
+          <ScalarProperty Name="TimeCode" ColumnName="TimeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_EXPORT">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_EXPORT">
+        <MappingFragment StoreEntitySet="tblEDI_862_EXPORT">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="ExportNo" ColumnName="ExportNo" />
+          <ScalarProperty Name="JitKey" ColumnName="JitKey" />
+          <ScalarProperty Name="ExportQty" ColumnName="ExportQty" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="PONum_Suffix" ColumnName="PONum_Suffix" />
+          <ScalarProperty Name="ExportDateTime" ColumnName="ExportDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_862_HEADER">
+          <ScalarProperty Name="blnEmailFlag" ColumnName="blnEmailFlag" />
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="ReferenceID" ColumnName="ReferenceID" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="ScheduleTypeQual" ColumnName="ScheduleTypeQual" />
+          <ScalarProperty Name="HorizonStartDate" ColumnName="HorizonStartDate" />
+          <ScalarProperty Name="HorizonEndDate" ColumnName="HorizonEndDate" />
+          <ScalarProperty Name="ReleaseNumber" ColumnName="ReleaseNumber" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="PONum" ColumnName="PONum" />
+          <ScalarProperty Name="ScheduleQtyQual" ColumnName="ScheduleQtyQual" />
+          <ScalarProperty Name="AdminFuncCode_hdr" ColumnName="AdminFuncCode_hdr" />
+          <ScalarProperty Name="AdminContact_hdr" ColumnName="AdminContact_hdr" />
+          <ScalarProperty Name="AdminCommNumQual_hdr" ColumnName="AdminCommNumQual_hdr" />
+          <ScalarProperty Name="AdminPhone_hdr" ColumnName="AdminPhone_hdr" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_JIT">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_JIT">
+        <MappingFragment StoreEntitySet="tblEDI_862_JIT">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="JitKey" ColumnName="JitKey" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="DeliveryShipTime" ColumnName="DeliveryShipTime" />
+          <ScalarProperty Name="HondaLotNumberQual" ColumnName="HondaLotNumberQual" />
+          <ScalarProperty Name="HondaLotNumber" ColumnName="HondaLotNumber" />
+          <ScalarProperty Name="SmallLotDeliveryBatchNumQual" ColumnName="SmallLotDeliveryBatchNumQual" />
+          <ScalarProperty Name="SmallLotDeliveryBatchNum" ColumnName="SmallLotDeliveryBatchNum" />
+          <ScalarProperty Name="LotSequenceNumQual" ColumnName="LotSequenceNumQual" />
+          <ScalarProperty Name="LotSequenceNum" ColumnName="LotSequenceNum" />
+          <ScalarProperty Name="ShipScheduleOrderNumQual" ColumnName="ShipScheduleOrderNumQual" />
+          <ScalarProperty Name="ShipScheduleOrderNum" ColumnName="ShipScheduleOrderNum" />
+          <ScalarProperty Name="blnPrint" ColumnName="blnPrint" />
+          <ScalarProperty Name="ShipmentTimeQual" ColumnName="ShipmentTimeQual" />
+          <ScalarProperty Name="ShipmentTime" ColumnName="ShipmentTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_862_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="AssignedID" ColumnName="AssignedID" />
+          <ScalarProperty Name="PartIDQual" ColumnName="PartIDQual" />
+          <ScalarProperty Name="BuyersPartID" ColumnName="BuyersPartID" />
+          <ScalarProperty Name="DCPartLevelQual" ColumnName="DCPartLevelQual" />
+          <ScalarProperty Name="DCPartLevel" ColumnName="DCPartLevel" />
+          <ScalarProperty Name="PartDescQual" ColumnName="PartDescQual" />
+          <ScalarProperty Name="PartDescription" ColumnName="PartDescription" />
+          <ScalarProperty Name="PartLevelShipScheduleNumQual" ColumnName="PartLevelShipScheduleNumQual" />
+          <ScalarProperty Name="PartLevelShipScheduleNum" ColumnName="PartLevelShipScheduleNum" />
+          <ScalarProperty Name="ProjectNoQual" ColumnName="ProjectNoQual" />
+          <ScalarProperty Name="ProjectNo" ColumnName="ProjectNo" />
+          <ScalarProperty Name="PackagingCode" ColumnName="PackagingCode" />
+          <ScalarProperty Name="QtyPerContainer" ColumnName="QtyPerContainer" />
+          <ScalarProperty Name="ContainerType" ColumnName="ContainerType" />
+          <ScalarProperty Name="WeightQual" ColumnName="WeightQual" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="TD1UOM" ColumnName="TD1UOM" />
+          <ScalarProperty Name="EquipDescCode" ColumnName="EquipDescCode" />
+          <ScalarProperty Name="EquipNum" ColumnName="EquipNum" />
+          <ScalarProperty Name="RoutingSeqCode" ColumnName="RoutingSeqCode" />
+          <ScalarProperty Name="SCACCodeQual" ColumnName="SCACCodeQual" />
+          <ScalarProperty Name="SCACCode" ColumnName="SCACCode" />
+          <ScalarProperty Name="TransMethodTypeCode" ColumnName="TransMethodTypeCode" />
+          <ScalarProperty Name="Routing" ColumnName="Routing" />
+          <ScalarProperty Name="ShipOrdStatusCode" ColumnName="ShipOrdStatusCode" />
+          <ScalarProperty Name="LocationQual" ColumnName="LocationQual" />
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="TransDirectionCode" ColumnName="TransDirectionCode" />
+          <ScalarProperty Name="TransTimeDirectionQual" ColumnName="TransTimeDirectionQual" />
+          <ScalarProperty Name="TransTime" ColumnName="TransTime" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="NoteRefCode" ColumnName="NoteRefCode" />
+          <ScalarProperty Name="FreeFormMsg" ColumnName="FreeFormMsg" />
+          <ScalarProperty Name="AdminFuncCode_lin" ColumnName="AdminFuncCode_lin" />
+          <ScalarProperty Name="AdminContact_lin" ColumnName="AdminContact_lin" />
+          <ScalarProperty Name="AdminCommNumQual_lin" ColumnName="AdminCommNumQual_lin" />
+          <ScalarProperty Name="AdminPhone_lin" ColumnName="AdminPhone_lin" />
+          <ScalarProperty Name="PalletType" ColumnName="PalletType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_N1">
+        <MappingFragment StoreEntitySet="tblEDI_862_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SqlNumQual" ColumnName="SqlNumQual" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CorpName" ColumnName="CorpName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CommQual" ColumnName="CommQual" />
+          <ScalarProperty Name="CommNum" ColumnName="CommNum" />
+          <ScalarProperty Name="NNALogContact" ColumnName="NNALogContact" />
+          <ScalarProperty Name="Check864" ColumnName="Check864" />
+          <ScalarProperty Name="BuyerName" ColumnName="BuyerName" />
+          <ScalarProperty Name="RequestorName" ColumnName="RequestorName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_REF">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_REF">
+        <MappingFragment StoreEntitySet="tblEDI_862_REF">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="ShpKey" ColumnName="ShpKey" />
+          <ScalarProperty Name="RefKey" ColumnName="RefKey" />
+          <ScalarProperty Name="RefQual" ColumnName="RefQual" />
+          <ScalarProperty Name="RefNum" ColumnName="RefNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_862_SHP">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_862_SHP">
+        <MappingFragment StoreEntitySet="tblEDI_862_SHP">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="ShpKey" ColumnName="ShpKey" />
+          <ScalarProperty Name="QtyQual" ColumnName="QtyQual" />
+          <ScalarProperty Name="ShipQty" ColumnName="ShipQty" />
+          <ScalarProperty Name="DateQual" ColumnName="DateQual" />
+          <ScalarProperty Name="LastShipDate" ColumnName="LastShipDate" />
+          <ScalarProperty Name="BegInventoryDate" ColumnName="BegInventoryDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_864_DTM">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_864_DTM">
+        <MappingFragment StoreEntitySet="tblEDI_864_DTM">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtmKey" ColumnName="DtmKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="DtmQual" ColumnName="DtmQual" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TimeCode" ColumnName="TimeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_864_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_864_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_864_HEADER">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="TransSetPurpose" ColumnName="TransSetPurpose" />
+          <ScalarProperty Name="TransTypeCode" ColumnName="TransTypeCode" />
+          <ScalarProperty Name="TransDescription" ColumnName="TransDescription" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_864_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_864_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_864_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="DocumentIDNum" ColumnName="DocumentIDNum" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PageWidth" ColumnName="PageWidth" />
+          <ScalarProperty Name="PageLengthLines" ColumnName="PageLengthLines" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_864_MSG">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_864_MSG">
+        <MappingFragment StoreEntitySet="tblEDI_864_MSG">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="MsgKey" ColumnName="MsgKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="MsgText" ColumnName="MsgText" />
+          <ScalarProperty Name="CarriageControlCode" ColumnName="CarriageControlCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_864_N1">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_864_N1">
+        <MappingFragment StoreEntitySet="tblEDI_864_N1">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="N1Key" ColumnName="N1Key" />
+          <ScalarProperty Name="EntityIDCode" ColumnName="EntityIDCode" />
+          <ScalarProperty Name="CodeQual" ColumnName="CodeQual" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CorporationName" ColumnName="CorporationName" />
+          <ScalarProperty Name="AdditionalName" ColumnName="AdditionalName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactNum1Qual" ColumnName="ContactNum1Qual" />
+          <ScalarProperty Name="ContactNumber1" ColumnName="ContactNumber1" />
+          <ScalarProperty Name="ContactNum2Qual" ColumnName="ContactNum2Qual" />
+          <ScalarProperty Name="ContactNumber2" ColumnName="ContactNumber2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_997_DETAIL">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_997_DETAIL">
+        <MappingFragment StoreEntitySet="tblEDI_997_DETAIL">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="DtlKey" ColumnName="DtlKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="SegmentIDCode" ColumnName="SegmentIDCode" />
+          <ScalarProperty Name="SegmentPosition" ColumnName="SegmentPosition" />
+          <ScalarProperty Name="LoopIDCode" ColumnName="LoopIDCode" />
+          <ScalarProperty Name="SegmentCode1" ColumnName="SegmentCode1" />
+          <ScalarProperty Name="SegmentCode2" ColumnName="SegmentCode2" />
+          <ScalarProperty Name="SegmentCode3" ColumnName="SegmentCode3" />
+          <ScalarProperty Name="SegmentCode4" ColumnName="SegmentCode4" />
+          <ScalarProperty Name="SegmentCode5" ColumnName="SegmentCode5" />
+          <ScalarProperty Name="ElementPosition" ColumnName="ElementPosition" />
+          <ScalarProperty Name="ElementRefNum" ColumnName="ElementRefNum" />
+          <ScalarProperty Name="ElementSyntaxErrorCode" ColumnName="ElementSyntaxErrorCode" />
+          <ScalarProperty Name="CopyBadDataElement" ColumnName="CopyBadDataElement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_997_HEADER">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_997_HEADER">
+        <MappingFragment StoreEntitySet="tblEDI_997_HEADER">
+          <ScalarProperty Name="blnEmailFlag" ColumnName="blnEmailFlag" />
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="ISAControlNum" ColumnName="ISAControlNum" />
+          <ScalarProperty Name="ISASenderID" ColumnName="ISASenderID" />
+          <ScalarProperty Name="GSControlNum" ColumnName="GSControlNum" />
+          <ScalarProperty Name="GSSenderID" ColumnName="GSSenderID" />
+          <ScalarProperty Name="TransSetID" ColumnName="TransSetID" />
+          <ScalarProperty Name="TransSetControlNum" ColumnName="TransSetControlNum" />
+          <ScalarProperty Name="FunctionalIDCode" ColumnName="FunctionalIDCode" />
+          <ScalarProperty Name="GroupControlNum" ColumnName="GroupControlNum" />
+          <ScalarProperty Name="FunctionalGroupAckCode" ColumnName="FunctionalGroupAckCode" />
+          <ScalarProperty Name="NumofTransSetsIncluded" ColumnName="NumofTransSetsIncluded" />
+          <ScalarProperty Name="NumofReceivedTransSets" ColumnName="NumofReceivedTransSets" />
+          <ScalarProperty Name="NumofAcceptedTransSets" ColumnName="NumofAcceptedTransSets" />
+          <ScalarProperty Name="SubmitDateTime" ColumnName="SubmitDateTime" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="FunctionalGroupNoteCode1" ColumnName="FunctionalGroupNoteCode1" />
+          <ScalarProperty Name="FunctionalGroupNoteCode2" ColumnName="FunctionalGroupNoteCode2" />
+          <ScalarProperty Name="FunctionalGroupNoteCode3" ColumnName="FunctionalGroupNoteCode3" />
+          <ScalarProperty Name="FunctionalGroupNoteCode4" ColumnName="FunctionalGroupNoteCode4" />
+          <ScalarProperty Name="FunctionalGroupNoteCode5" ColumnName="FunctionalGroupNoteCode5" />
+          <ScalarProperty Name="blnRepFlag" ColumnName="blnRepFlag" />
+          <ScalarProperty Name="GSReceiverID" ColumnName="GSReceiverID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDI_997_LINE">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDI_997_LINE">
+        <MappingFragment StoreEntitySet="tblEDI_997_LINE">
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="LineKey" ColumnName="LineKey" />
+          <ScalarProperty Name="HdrKey" ColumnName="HdrKey" />
+          <ScalarProperty Name="TranSetIDCode" ColumnName="TranSetIDCode" />
+          <ScalarProperty Name="TranSetControlNum" ColumnName="TranSetControlNum" />
+          <ScalarProperty Name="TranSetAckCode" ColumnName="TranSetAckCode" />
+          <ScalarProperty Name="TranSetSyntaxErrorCode" ColumnName="TranSetSyntaxErrorCode" />
+          <ScalarProperty Name="TranSetNoteCode1" ColumnName="TranSetNoteCode1" />
+          <ScalarProperty Name="TranSetNoteCode2" ColumnName="TranSetNoteCode2" />
+          <ScalarProperty Name="TranSetNoteCode3" ColumnName="TranSetNoteCode3" />
+          <ScalarProperty Name="TranSetNoteCode4" ColumnName="TranSetNoteCode4" />
+          <ScalarProperty Name="TranSetNoteCode5" ColumnName="TranSetNoteCode5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDISegments">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDISegment">
+        <MappingFragment StoreEntitySet="tblEDISegment">
+          <ScalarProperty Name="SegmentNo" ColumnName="SegmentNo" />
+          <ScalarProperty Name="SegmentCode" ColumnName="SegmentCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDITransactionSets">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDITransactionSet">
+        <MappingFragment StoreEntitySet="tblEDITransactionSet">
+          <ScalarProperty Name="EDITypeNo_FK" ColumnName="EDITypeNo_FK" />
+          <ScalarProperty Name="TransactionSetNo" ColumnName="TransactionSetNo" />
+          <ScalarProperty Name="TransactionSetID" ColumnName="TransactionSetID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InOut" ColumnName="InOut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDITrasactionRawDatas">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDITrasactionRawData">
+        <MappingFragment StoreEntitySet="tblEDITrasactionRawData">
+          <ScalarProperty Name="GroupControlNum" ColumnName="GroupControlNum" />
+          <ScalarProperty Name="InterchangeControlNum" ColumnName="InterchangeControlNum" />
+          <ScalarProperty Name="TransactionRawDataNo" ColumnName="TransactionRawDataNo" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="TradingPartnerNo_FK" ColumnName="TradingPartnerNo_FK" />
+          <ScalarProperty Name="TransactionSetNo_FK" ColumnName="TransactionSetNo_FK" />
+          <ScalarProperty Name="TransactionKey" ColumnName="TransactionKey" />
+          <ScalarProperty Name="InOut" ColumnName="InOut" />
+          <ScalarProperty Name="RawData" ColumnName="RawData" />
+          <ScalarProperty Name="XMLData" ColumnName="XMLData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDIVersions">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDIVersion">
+        <MappingFragment StoreEntitySet="tblEDIVersion">
+          <ScalarProperty Name="EDITypeNo_FK" ColumnName="EDITypeNo_FK" />
+          <ScalarProperty Name="EDIVersionNo" ColumnName="EDIVersionNo" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblErrorHandles">
+      <EntityTypeMapping TypeName="BHEDIModel.tblErrorHandle">
+        <MappingFragment StoreEntitySet="tblErrorHandle">
+          <ScalarProperty Name="ErrorHandleNo" ColumnName="ErrorHandleNo" />
+          <ScalarProperty Name="ErrorHandleCode" ColumnName="ErrorHandleCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInboundMappings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblInboundMapping">
+        <MappingFragment StoreEntitySet="tblInboundMapping">
+          <ScalarProperty Name="IsInsert" ColumnName="IsInsert" />
+          <ScalarProperty Name="InboundMappingNo" ColumnName="InboundMappingNo" />
+          <ScalarProperty Name="TradingPartnerNo_FK" ColumnName="TradingPartnerNo_FK" />
+          <ScalarProperty Name="TransactionSetNo_FK" ColumnName="TransactionSetNo_FK" />
+          <ScalarProperty Name="SegmentNo_FK" ColumnName="SegmentNo_FK" />
+          <ScalarProperty Name="Postion" ColumnName="Postion" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+          <ScalarProperty Name="CommitDBAfterRead" ColumnName="CommitDBAfterRead" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="TransactionRawDataNo_FK" ColumnName="TransactionRawDataNo_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInboundOutboundSettings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblInboundOutboundSetting">
+        <MappingFragment StoreEntitySet="tblInboundOutboundSetting">
+          <ScalarProperty Name="SettingNo" ColumnName="SettingNo" />
+          <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+          <ScalarProperty Name="InOut" ColumnName="InOut" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="IsArchive" ColumnName="IsArchive" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="IsCreate" ColumnName="IsCreate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOperators">
+      <EntityTypeMapping TypeName="BHEDIModel.tblOperator">
+        <MappingFragment StoreEntitySet="tblOperator">
+          <ScalarProperty Name="OperatorParameter" ColumnName="OperatorParameter" />
+          <ScalarProperty Name="OperatorNo" ColumnName="OperatorNo" />
+          <ScalarProperty Name="OperatorCode" ColumnName="OperatorCode" />
+          <ScalarProperty Name="OperatorName" ColumnName="OperatorName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOperatorInboundMappings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblOperatorInboundMapping">
+        <MappingFragment StoreEntitySet="tblOperatorInboundMapping">
+          <ScalarProperty Name="OperatorMappingNo" ColumnName="OperatorMappingNo" />
+          <ScalarProperty Name="OperatorNo_FK" ColumnName="OperatorNo_FK" />
+          <ScalarProperty Name="InboundMappingNo_FK" ColumnName="InboundMappingNo_FK" />
+          <ScalarProperty Name="OperatorParameter" ColumnName="OperatorParameter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOperatorOutboundMappings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblOperatorOutboundMapping">
+        <MappingFragment StoreEntitySet="tblOperatorOutboundMapping">
+          <ScalarProperty Name="OperatorMappingNo" ColumnName="OperatorMappingNo" />
+          <ScalarProperty Name="OperatorNo_FK" ColumnName="OperatorNo_FK" />
+          <ScalarProperty Name="OutboundMappingNo_FK" ColumnName="OutboundMappingNo_FK" />
+          <ScalarProperty Name="OperatorParameter" ColumnName="OperatorParameter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOutboundMappings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblOutboundMapping">
+        <MappingFragment StoreEntitySet="tblOutboundMapping">
+          <ScalarProperty Name="SegmentNumber" ColumnName="SegmentNumber" />
+          <ScalarProperty Name="OutboundMappingNo" ColumnName="OutboundMappingNo" />
+          <ScalarProperty Name="TradingPartnerNo_FK" ColumnName="TradingPartnerNo_FK" />
+          <ScalarProperty Name="TransactionSetNo_FK" ColumnName="TransactionSetNo_FK" />
+          <ScalarProperty Name="SegmentNo_FK" ColumnName="SegmentNo_FK" />
+          <ScalarProperty Name="Postion" ColumnName="Postion" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="XMLPathField" ColumnName="XMLPathField" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="OutputEDIFilePath" ColumnName="OutputEDIFilePath" />
+          <ScalarProperty Name="TransactionRawDataNo_FK" ColumnName="TransactionRawDataNo_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSegmentTerminators">
+      <EntityTypeMapping TypeName="BHEDIModel.tblSegmentTerminator">
+        <MappingFragment StoreEntitySet="tblSegmentTerminator">
+          <ScalarProperty Name="SegmentTerminatorNo" ColumnName="SegmentTerminatorNo" />
+          <ScalarProperty Name="TerminatorCode" ColumnName="TerminatorCode" />
+          <ScalarProperty Name="Terminator" ColumnName="Terminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTradingPartners">
+      <EntityTypeMapping TypeName="BHEDIModel.tblTradingPartner">
+        <MappingFragment StoreEntitySet="tblTradingPartner">
+          <ScalarProperty Name="OutBoundID" ColumnName="OutBoundID" />
+          <ScalarProperty Name="FunctionalAcknowledgement" ColumnName="FunctionalAcknowledgement" />
+          <ScalarProperty Name="TradingPartnerNo" ColumnName="TradingPartnerNo" />
+          <ScalarProperty Name="TradingPartnerName" ColumnName="TradingPartnerName" />
+          <ScalarProperty Name="AuthorizationQual" ColumnName="AuthorizationQual" />
+          <ScalarProperty Name="AuthorizationInfo" ColumnName="AuthorizationInfo" />
+          <ScalarProperty Name="SecurityQual" ColumnName="SecurityQual" />
+          <ScalarProperty Name="SecurityInfo" ColumnName="SecurityInfo" />
+          <ScalarProperty Name="InterchangeSenderIDQual" ColumnName="InterchangeSenderIDQual" />
+          <ScalarProperty Name="InterchangeSenderID" ColumnName="InterchangeSenderID" />
+          <ScalarProperty Name="InterchangeReceiverIDQual" ColumnName="InterchangeReceiverIDQual" />
+          <ScalarProperty Name="InterchangeReceiverID" ColumnName="InterchangeReceiverID" />
+          <ScalarProperty Name="ApplicationSenderCode" ColumnName="ApplicationSenderCode" />
+          <ScalarProperty Name="ApplicationReceiverCode" ColumnName="ApplicationReceiverCode" />
+          <ScalarProperty Name="ResponsibleAgencyCode" ColumnName="ResponsibleAgencyCode" />
+          <ScalarProperty Name="SegmentTerminator" ColumnName="SegmentTerminator" />
+          <ScalarProperty Name="DataElementDelimiter" ColumnName="DataElementDelimiter" />
+          <ScalarProperty Name="RepetitionSep" ColumnName="RepetitionSep" />
+          <ScalarProperty Name="InterchangeVersion" ColumnName="InterchangeVersion" />
+          <ScalarProperty Name="StandardVersion" ColumnName="StandardVersion" />
+          <ScalarProperty Name="TestIndicator" ColumnName="TestIndicator" />
+          <ScalarProperty Name="SubElementSep" ColumnName="SubElementSep" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTradingPartnerErrorHandings">
+      <EntityTypeMapping TypeName="BHEDIModel.tblTradingPartnerErrorHanding">
+        <MappingFragment StoreEntitySet="tblTradingPartnerErrorHanding">
+          <ScalarProperty Name="TPErrorHandingNo" ColumnName="TPErrorHandingNo" />
+          <ScalarProperty Name="TradingPartnerNo_FK" ColumnName="TradingPartnerNo_FK" />
+          <ScalarProperty Name="TransactionSetNo_FK" ColumnName="TransactionSetNo_FK" />
+          <ScalarProperty Name="ErrorHandleNo_FK" ColumnName="ErrorHandleNo_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInterchangeControlNumbers">
+      <EntityTypeMapping TypeName="BHEDIModel.tblInterchangeControlNumber">
+        <MappingFragment StoreEntitySet="tblInterchangeControlNumber">
+          <ScalarProperty Name="InterchangeControlNumber" ColumnName="InterchangeControlNumber" />
+          <ScalarProperty Name="ControlNo" ColumnName="ControlNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDITransactionStructures">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDITransactionStructure">
+        <MappingFragment StoreEntitySet="tblEDITransactionStructure">
+          <ScalarProperty Name="EDITypeNo_FK" ColumnName="EDITypeNo_FK" />
+          <ScalarProperty Name="MaxLength" ColumnName="MaxLength" />
+          <ScalarProperty Name="MinLength" ColumnName="MinLength" />
+          <ScalarProperty Name="SegmentCode" ColumnName="SegmentCode" />
+          <ScalarProperty Name="FunctionGroup" ColumnName="FunctionGroup" />
+          <ScalarProperty Name="TransactionSetID" ColumnName="TransactionSetID" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="StructureNo" ColumnName="StructureNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblErrorLogs">
+      <EntityTypeMapping TypeName="BHEDIModel.tblErrorLog">
+        <MappingFragment StoreEntitySet="tblErrorLog">
+          <ScalarProperty Name="LogType" ColumnName="LogType" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="TransactionRawDataNo_FK" ColumnName="TransactionRawDataNo_FK" />
+          <ScalarProperty Name="TransactionSetNo_FK" ColumnName="TransactionSetNo_FK" />
+          <ScalarProperty Name="TradingPartnerNo_FK" ColumnName="TradingPartnerNo_FK" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="ErrorLogNo" ColumnName="ErrorLogNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEDITypes">
+      <EntityTypeMapping TypeName="BHEDIModel.tblEDIType">
+        <MappingFragment StoreEntitySet="tblEDIType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EDITypeNo" ColumnName="EDITypeNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="s_OutboundMapping_ExportToCSV" FunctionName="BHEDIModel.Store.s_OutboundMapping_ExportToCSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BHEDIModel.s_OutboundMapping_ExportToCSV">
+          <ScalarProperty Name="SegmentCode" ColumnName="SegmentCode" />
+          <ScalarProperty Name="Postion" ColumnName="Postion" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="XMLPathField" ColumnName="XMLPathField" />
+          <ScalarProperty Name="SegmentNumber" ColumnName="SegmentNumber" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="OutputEDIFilePath" ColumnName="OutputEDIFilePath" />
+          <ScalarProperty Name="NumDist" ColumnName="NumDist" />
+          <ScalarProperty Name="LineNum" ColumnName="LineNum" />
+          <ScalarProperty Name="OperatorCode" ColumnName="OperatorCode" />
+          <ScalarProperty Name="OperatorParameter" ColumnName="OperatorParameter" />
+          <ScalarProperty Name="XMLData" ColumnName="XMLData" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="TransactionKey" ColumnName="TransactionKey" />
+          <ScalarProperty Name="InOut" ColumnName="InOut" />
+          <ScalarProperty Name="InterchangeControlNum" ColumnName="InterchangeControlNum" />
+          <ScalarProperty Name="GroupControlNum" ColumnName="GroupControlNum" />
+          <ScalarProperty Name="RawData" ColumnName="RawData" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="s_InboundMapping_ExportToCSV" FunctionName="BHEDIModel.Store.s_InboundMapping_ExportToCSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BHEDIModel.s_InboundMapping_ExportToCSV">
+          <ScalarProperty Name="SegmentCode" ColumnName="SegmentCode" />
+          <ScalarProperty Name="Postion" ColumnName="Postion" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+          <ScalarProperty Name="CommitDBAfterRead" ColumnName="CommitDBAfterRead" />
+          <ScalarProperty Name="isInsert" ColumnName="isInsert" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="NumDist" ColumnName="NumDist" />
+          <ScalarProperty Name="LineNum" ColumnName="LineNum" />
+          <ScalarProperty Name="OperatorCode" ColumnName="OperatorCode" />
+          <ScalarProperty Name="OperatorParameter" ColumnName="OperatorParameter" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="TransactionKey" ColumnName="TransactionKey" />
+          <ScalarProperty Name="InOut" ColumnName="InOut" />
+          <ScalarProperty Name="InterchangeControlNum" ColumnName="InterchangeControlNum" />
+          <ScalarProperty Name="GroupControlNum" ColumnName="GroupControlNum" />
+          <ScalarProperty Name="RawData" ColumnName="RawData" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

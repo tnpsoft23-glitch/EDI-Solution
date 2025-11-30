@@ -1,0 +1,2876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BHEDIModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="BHEDIModelStoreContainer">
+    <EntitySet Name="tblEDI_142_AMT" EntityType="BHEDIModel.Store.tblEDI_142_AMT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_DETAIL" EntityType="BHEDIModel.Store.tblEDI_142_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_DTM" EntityType="BHEDIModel.Store.tblEDI_142_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_HEADER" EntityType="BHEDIModel.Store.tblEDI_142_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_IT1" EntityType="BHEDIModel.Store.tblEDI_142_IT1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_LINE" EntityType="BHEDIModel.Store.tblEDI_142_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_MSG" EntityType="BHEDIModel.Store.tblEDI_142_MSG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_N1" EntityType="BHEDIModel.Store.tblEDI_142_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_PRR" EntityType="BHEDIModel.Store.tblEDI_142_PRR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_REP" EntityType="BHEDIModel.Store.tblEDI_142_REP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_142_SSS" EntityType="BHEDIModel.Store.tblEDI_142_SSS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_810_HEADER" EntityType="BHEDIModel.Store.tblEDI_810_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_810_LINE" EntityType="BHEDIModel.Store.tblEDI_810_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_810_N1" EntityType="BHEDIModel.Store.tblEDI_810_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_ADX" EntityType="BHEDIModel.Store.tblEDI_820_ADX" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_DTM" EntityType="BHEDIModel.Store.tblEDI_820_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_HEADER" EntityType="BHEDIModel.Store.tblEDI_820_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_IT1" EntityType="BHEDIModel.Store.tblEDI_820_IT1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_LINE" EntityType="BHEDIModel.Store.tblEDI_820_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_N1" EntityType="BHEDIModel.Store.tblEDI_820_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_REF" EntityType="BHEDIModel.Store.tblEDI_820_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_RMR" EntityType="BHEDIModel.Store.tblEDI_820_RMR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_SAC" EntityType="BHEDIModel.Store.tblEDI_820_SAC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_820_SLN" EntityType="BHEDIModel.Store.tblEDI_820_SLN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_DETAIL" EntityType="BHEDIModel.Store.tblEDI_824_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_DTM" EntityType="BHEDIModel.Store.tblEDI_824_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_HEADER" EntityType="BHEDIModel.Store.tblEDI_824_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_LINE" EntityType="BHEDIModel.Store.tblEDI_824_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_N1" EntityType="BHEDIModel.Store.tblEDI_824_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_NTE" EntityType="BHEDIModel.Store.tblEDI_824_NTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_QTY" EntityType="BHEDIModel.Store.tblEDI_824_QTY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_824_REF" EntityType="BHEDIModel.Store.tblEDI_824_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_ATH" EntityType="BHEDIModel.Store.tblEDI_830_ATH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_DETAIL" EntityType="BHEDIModel.Store.tblEDI_830_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_HEADER" EntityType="BHEDIModel.Store.tblEDI_830_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_LINE" EntityType="BHEDIModel.Store.tblEDI_830_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_N1" EntityType="BHEDIModel.Store.tblEDI_830_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_REF" EntityType="BHEDIModel.Store.tblEDI_830_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_SHP" EntityType="BHEDIModel.Store.tblEDI_830_SHP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_830_SLN" EntityType="BHEDIModel.Store.tblEDI_830_SLN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_DETAIL" EntityType="BHEDIModel.Store.tblEDI_832_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_DTM" EntityType="BHEDIModel.Store.tblEDI_832_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_HEADER" EntityType="BHEDIModel.Store.tblEDI_832_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_LINE" EntityType="BHEDIModel.Store.tblEDI_832_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_N1" EntityType="BHEDIModel.Store.tblEDI_832_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_832_REF" EntityType="BHEDIModel.Store.tblEDI_832_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_CTP" EntityType="BHEDIModel.Store.tblEDI_850_CTP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_DTM" EntityType="BHEDIModel.Store.tblEDI_850_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_HEADER" EntityType="BHEDIModel.Store.tblEDI_850_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_ITA" EntityType="BHEDIModel.Store.tblEDI_850_ITA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_ITD" EntityType="BHEDIModel.Store.tblEDI_850_ITD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_LINE" EntityType="BHEDIModel.Store.tblEDI_850_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_N1" EntityType="BHEDIModel.Store.tblEDI_850_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_N9" EntityType="BHEDIModel.Store.tblEDI_850_N9" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_NTE" EntityType="BHEDIModel.Store.tblEDI_850_NTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_PID" EntityType="BHEDIModel.Store.tblEDI_850_PID" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_PO3" EntityType="BHEDIModel.Store.tblEDI_850_PO3" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_REF" EntityType="BHEDIModel.Store.tblEDI_850_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_SAC" EntityType="BHEDIModel.Store.tblEDI_850_SAC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_SCH" EntityType="BHEDIModel.Store.tblEDI_850_SCH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_SHH" EntityType="BHEDIModel.Store.tblEDI_850_SHH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_850_SLN" EntityType="BHEDIModel.Store.tblEDI_850_SLN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_856_HEADER" EntityType="BHEDIModel.Store.tblEDI_856_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_856_HL2" EntityType="BHEDIModel.Store.tblEDI_856_HL2" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_856_HL3" EntityType="BHEDIModel.Store.tblEDI_856_HL3" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_856_LINE" EntityType="BHEDIModel.Store.tblEDI_856_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_856_N1" EntityType="BHEDIModel.Store.tblEDI_856_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_CTP" EntityType="BHEDIModel.Store.tblEDI_860_CTP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_DTM" EntityType="BHEDIModel.Store.tblEDI_860_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_HEADER" EntityType="BHEDIModel.Store.tblEDI_860_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_ITA" EntityType="BHEDIModel.Store.tblEDI_860_ITA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_ITD" EntityType="BHEDIModel.Store.tblEDI_860_ITD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_LINE" EntityType="BHEDIModel.Store.tblEDI_860_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_MSG" EntityType="BHEDIModel.Store.tblEDI_860_MSG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_N1" EntityType="BHEDIModel.Store.tblEDI_860_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_N9" EntityType="BHEDIModel.Store.tblEDI_860_N9" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_NTE" EntityType="BHEDIModel.Store.tblEDI_860_NTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_PID" EntityType="BHEDIModel.Store.tblEDI_860_PID" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_PKG" EntityType="BHEDIModel.Store.tblEDI_860_PKG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_PO3" EntityType="BHEDIModel.Store.tblEDI_860_PO3" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_REF" EntityType="BHEDIModel.Store.tblEDI_860_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_SAC" EntityType="BHEDIModel.Store.tblEDI_860_SAC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_SCH" EntityType="BHEDIModel.Store.tblEDI_860_SCH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_SHH" EntityType="BHEDIModel.Store.tblEDI_860_SHH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_SLN" EntityType="BHEDIModel.Store.tblEDI_860_SLN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_860_TD5" EntityType="BHEDIModel.Store.tblEDI_860_TD5" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_861_DTM" EntityType="BHEDIModel.Store.tblEDI_861_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_861_HEADER" EntityType="BHEDIModel.Store.tblEDI_861_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_861_LINE" EntityType="BHEDIModel.Store.tblEDI_861_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_861_N1" EntityType="BHEDIModel.Store.tblEDI_861_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_861_REF" EntityType="BHEDIModel.Store.tblEDI_861_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_ATH" EntityType="BHEDIModel.Store.tblEDI_862_ATH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_DETAIL" EntityType="BHEDIModel.Store.tblEDI_862_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_DTM" EntityType="BHEDIModel.Store.tblEDI_862_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_EXPORT" EntityType="BHEDIModel.Store.tblEDI_862_EXPORT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_HEADER" EntityType="BHEDIModel.Store.tblEDI_862_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_JIT" EntityType="BHEDIModel.Store.tblEDI_862_JIT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_LINE" EntityType="BHEDIModel.Store.tblEDI_862_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_N1" EntityType="BHEDIModel.Store.tblEDI_862_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_REF" EntityType="BHEDIModel.Store.tblEDI_862_REF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_862_SHP" EntityType="BHEDIModel.Store.tblEDI_862_SHP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_864_DTM" EntityType="BHEDIModel.Store.tblEDI_864_DTM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_864_HEADER" EntityType="BHEDIModel.Store.tblEDI_864_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_864_LINE" EntityType="BHEDIModel.Store.tblEDI_864_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_864_MSG" EntityType="BHEDIModel.Store.tblEDI_864_MSG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_864_N1" EntityType="BHEDIModel.Store.tblEDI_864_N1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_997_DETAIL" EntityType="BHEDIModel.Store.tblEDI_997_DETAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_997_HEADER" EntityType="BHEDIModel.Store.tblEDI_997_HEADER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDI_997_LINE" EntityType="BHEDIModel.Store.tblEDI_997_LINE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDISegment" EntityType="BHEDIModel.Store.tblEDISegment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDITransactionSet" EntityType="BHEDIModel.Store.tblEDITransactionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDITransactionStructure" EntityType="BHEDIModel.Store.tblEDITransactionStructure" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDITrasactionRawData" EntityType="BHEDIModel.Store.tblEDITrasactionRawData" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDIType" EntityType="BHEDIModel.Store.tblEDIType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblEDIVersion" EntityType="BHEDIModel.Store.tblEDIVersion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblErrorHandle" EntityType="BHEDIModel.Store.tblErrorHandle" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblErrorLog" EntityType="BHEDIModel.Store.tblErrorLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInboundMapping" EntityType="BHEDIModel.Store.tblInboundMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInboundOutboundSetting" EntityType="BHEDIModel.Store.tblInboundOutboundSetting" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInterchangeControlNumber" EntityType="BHEDIModel.Store.tblInterchangeControlNumber" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOperator" EntityType="BHEDIModel.Store.tblOperator" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOperatorInboundMapping" EntityType="BHEDIModel.Store.tblOperatorInboundMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOperatorOutboundMapping" EntityType="BHEDIModel.Store.tblOperatorOutboundMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblOutboundMapping" EntityType="BHEDIModel.Store.tblOutboundMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblSegmentTerminator" EntityType="BHEDIModel.Store.tblSegmentTerminator" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblTradingPartner" EntityType="BHEDIModel.Store.tblTradingPartner" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblTradingPartnerErrorHanding" EntityType="BHEDIModel.Store.tblTradingPartnerErrorHanding" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__tblEDITra__EDITy__060DEAE8" Association="BHEDIModel.Store.FK__tblEDITra__EDITy__060DEAE8">
+      <End Role="tblEDIType" EntitySet="tblEDIType" />
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblEDITra__EDITy__1273C1CD" Association="BHEDIModel.Store.FK__tblEDITra__EDITy__1273C1CD">
+      <End Role="tblEDIType" EntitySet="tblEDIType" />
+      <End Role="tblEDITransactionStructure" EntitySet="tblEDITransactionStructure" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblEDITra__Tradi__1BFD2C07" Association="BHEDIModel.Store.FK__tblEDITra__Tradi__1BFD2C07">
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+      <End Role="tblEDITrasactionRawData" EntitySet="tblEDITrasactionRawData" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblEDITra__Trans__1CF15040" Association="BHEDIModel.Store.FK__tblEDITra__Trans__1CF15040">
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+      <End Role="tblEDITrasactionRawData" EntitySet="tblEDITrasactionRawData" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblEDIVer__EDITy__7F60ED59" Association="BHEDIModel.Store.FK__tblEDIVer__EDITy__7F60ED59">
+      <End Role="tblEDIType" EntitySet="tblEDIType" />
+      <End Role="tblEDIVersion" EntitySet="tblEDIVersion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblErrorL__Tradi__1FCDBCEB" Association="BHEDIModel.Store.FK__tblErrorL__Tradi__1FCDBCEB">
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+      <End Role="tblErrorLog" EntitySet="tblErrorLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblErrorL__Trans__20C1E124" Association="BHEDIModel.Store.FK__tblErrorL__Trans__20C1E124">
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+      <End Role="tblErrorLog" EntitySet="tblErrorLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblErrorL__Trans__21B6055D" Association="BHEDIModel.Store.FK__tblErrorL__Trans__21B6055D">
+      <End Role="tblEDITrasactionRawData" EntitySet="tblEDITrasactionRawData" />
+      <End Role="tblErrorLog" EntitySet="tblErrorLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblInboun__Segme__267ABA7A" Association="BHEDIModel.Store.FK__tblInboun__Segme__267ABA7A">
+      <End Role="tblEDISegment" EntitySet="tblEDISegment" />
+      <End Role="tblInboundMapping" EntitySet="tblInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblInboun__Tradi__24927208" Association="BHEDIModel.Store.FK__tblInboun__Tradi__24927208">
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+      <End Role="tblInboundMapping" EntitySet="tblInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblInboun__Trans__25869641" Association="BHEDIModel.Store.FK__tblInboun__Trans__25869641">
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+      <End Role="tblInboundMapping" EntitySet="tblInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblInboun__Trans__276EDEB3" Association="BHEDIModel.Store.FK__tblInboun__Trans__276EDEB3">
+      <End Role="tblEDITrasactionRawData" EntitySet="tblEDITrasactionRawData" />
+      <End Role="tblInboundMapping" EntitySet="tblInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOperat__Inbou__30F848ED" Association="BHEDIModel.Store.FK__tblOperat__Inbou__30F848ED">
+      <End Role="tblInboundMapping" EntitySet="tblInboundMapping" />
+      <End Role="tblOperatorInboundMapping" EntitySet="tblOperatorInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOperat__Opera__300424B4" Association="BHEDIModel.Store.FK__tblOperat__Opera__300424B4">
+      <End Role="tblOperator" EntitySet="tblOperator" />
+      <End Role="tblOperatorInboundMapping" EntitySet="tblOperatorInboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOperat__Opera__33D4B598" Association="BHEDIModel.Store.FK__tblOperat__Opera__33D4B598">
+      <End Role="tblOperator" EntitySet="tblOperator" />
+      <End Role="tblOperatorOutboundMapping" EntitySet="tblOperatorOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOperat__Outbo__34C8D9D1" Association="BHEDIModel.Store.FK__tblOperat__Outbo__34C8D9D1">
+      <End Role="tblOutboundMapping" EntitySet="tblOutboundMapping" />
+      <End Role="tblOperatorOutboundMapping" EntitySet="tblOperatorOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOutbou__Segme__2C3393D0" Association="BHEDIModel.Store.FK__tblOutbou__Segme__2C3393D0">
+      <End Role="tblEDISegment" EntitySet="tblEDISegment" />
+      <End Role="tblOutboundMapping" EntitySet="tblOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOutbou__Tradi__2A4B4B5E" Association="BHEDIModel.Store.FK__tblOutbou__Tradi__2A4B4B5E">
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+      <End Role="tblOutboundMapping" EntitySet="tblOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOutbou__Trans__2B3F6F97" Association="BHEDIModel.Store.FK__tblOutbou__Trans__2B3F6F97">
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+      <End Role="tblOutboundMapping" EntitySet="tblOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOutbou__Trans__2D27B809" Association="BHEDIModel.Store.FK__tblOutbou__Trans__2D27B809">
+      <End Role="tblEDITrasactionRawData" EntitySet="tblEDITrasactionRawData" />
+      <End Role="tblOutboundMapping" EntitySet="tblOutboundMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__DataE__0BC6C43E" Association="BHEDIModel.Store.FK__tblTradin__DataE__0BC6C43E">
+      <End Role="tblSegmentTerminator" EntitySet="tblSegmentTerminator" />
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Error__1920BF5C" Association="BHEDIModel.Store.FK__tblTradin__Error__1920BF5C">
+      <End Role="tblErrorHandle" EntitySet="tblErrorHandle" />
+      <End Role="tblTradingPartnerErrorHanding" EntitySet="tblTradingPartnerErrorHanding" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Repet__0CBAE877" Association="BHEDIModel.Store.FK__tblTradin__Repet__0CBAE877">
+      <End Role="tblSegmentTerminator" EntitySet="tblSegmentTerminator" />
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Segme__0AD2A005" Association="BHEDIModel.Store.FK__tblTradin__Segme__0AD2A005">
+      <End Role="tblSegmentTerminator" EntitySet="tblSegmentTerminator" />
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Stand__0DAF0CB0" Association="BHEDIModel.Store.FK__tblTradin__Stand__0DAF0CB0">
+      <End Role="tblEDIVersion" EntitySet="tblEDIVersion" />
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__SubEl__0EA330E9" Association="BHEDIModel.Store.FK__tblTradin__SubEl__0EA330E9">
+      <End Role="tblSegmentTerminator" EntitySet="tblSegmentTerminator" />
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Tradi__173876EA" Association="BHEDIModel.Store.FK__tblTradin__Tradi__173876EA">
+      <End Role="tblTradingPartner" EntitySet="tblTradingPartner" />
+      <End Role="tblTradingPartnerErrorHanding" EntitySet="tblTradingPartnerErrorHanding" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTradin__Trans__182C9B23" Association="BHEDIModel.Store.FK__tblTradin__Trans__182C9B23">
+      <End Role="tblEDITransactionSet" EntitySet="tblEDITransactionSet" />
+      <End Role="tblTradingPartnerErrorHanding" EntitySet="tblTradingPartnerErrorHanding" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblEDI_142_AMT">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AmtKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AmountQualifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedIdentification" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="VehicleIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="VehicleIDNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngineNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngineNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngineModelQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngineModel" Type="nvarchar" MaxLength="50" />
+    <Property Name="PrimaryFailedPartQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PrimaryFailedPart" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelYearQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelYear" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartNumCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartNumCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDesc" Type="nvarchar" MaxLength="100" />
+    <Property Name="QuanityQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitMeasureCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Qualifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="dtmDate" Type="datetime" />
+    <Property Name="Century" Type="int" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="WarrantyClaimRefNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_IT1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="It1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="LaborHours" Type="float" />
+    <Property Name="UnitMeasurementCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="LaborCost" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReceiverClaimNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReceiverClaimNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="BussinessTypeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BussinessType" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdjustmentMemoQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdjustmentMemoNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorClaimNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorClaimNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorNameQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DistributorName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimClassCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimClassCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimClassCodeDescQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimClassCodeDesc" Type="nvarchar" MaxLength="50" />
+    <Property Name="MajorModelSeriesQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="MajorModelSeries" Type="nvarchar" MaxLength="50" />
+    <Property Name="MajorModelDescQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="MajorModelDesc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_MSG">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="PrrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="MsgKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Message" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="SplIDCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CommQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_PRR">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="PrrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ComplaintCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_REP">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RepKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDQualifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_142_SSS">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SssKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Indicator" Type="nvarchar" MaxLength="50" />
+    <Property Name="AgencyQualifierCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SpecialServicesCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Rate" Type="float" />
+    <Property Name="TotalAmount" Type="float" />
+    <Property Name="SupplierAmount" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_810_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="InvoiceDate" Type="datetime" />
+    <Property Name="InvoiceNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TermsBasisDateCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TermsDiscPercent" Type="float" />
+    <Property Name="TermsDiscDaysDue" Type="int" />
+    <Property Name="TermsNetDueDate" Type="datetime" />
+    <Property Name="TermsNetDays" Type="int" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="TaxTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxAmount" Type="float" />
+    <Property Name="TaxPercent" Type="float" />
+    <Property Name="TaxIDNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_810_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyInvoiced" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="UnitPriceCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItemDescType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_810_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_ADX">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdxKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdjMonetaryAmount" Type="float" />
+    <Property Name="AdjReasonCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdjIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdjReferenceID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdxKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="IT1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RMRKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransHandlingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TotalPaymentAmount" Type="float" />
+    <Property Name="CreditDebitFlagCode" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethodCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentFormatCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierIDNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierID" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierAcctNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierAcctNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="RemittanceDate" Type="datetime" />
+    <Property Name="TraceTypeNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TraceRefNum1" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrgCompanyID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TraceRefNum2" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_IT1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IT1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdxKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RMRKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyInvoiced" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="UnitPriceCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AssignedNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipToCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipToIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipToCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipToNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxIDNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxPaymentTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxDate" Type="datetime" />
+    <Property Name="TaxInfoID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxAmount" Type="float" />
+    <Property Name="LoopHeaderIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoopTrailerIDCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ContactNum1Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum2Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum2" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmailQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="PlantID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdxKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="IT1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="RMRKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_RMR">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RMRKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="RemittanceIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RemittanceID" Type="nvarchar" MaxLength="50" />
+    <Property Name="RemittancePayActionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="NetAmount" Type="float" />
+    <Property Name="GrossAmount" Type="float" />
+    <Property Name="DiscountAmount" Type="float" />
+    <Property Name="AdjReasonCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_SAC">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SACKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdxKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RMRKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="IT1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="ChargeID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ChargeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="Rate" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="ChargeHandlingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="ChargeNum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_820_SLN">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SLNKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdxKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="IT1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelationshipCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="BasisofUnitPriceCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtlKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ApplErrConditionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ErrorDescrp" Type="nvarchar" MaxLength="300" />
+    <Property Name="ErrorData" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="TimeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationAdviceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AppAcknowledgmentCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrgDocumentNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrgDocumentNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrgCreateDateTime" Type="datetime" />
+    <Property Name="TranSetIDCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_NTE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NteKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="NoteRefCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_QTY">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="QtyKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="QtyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quantity" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_824_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_ATH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AthKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ResourceAuthCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ResourceAuth_ThruDate" Type="datetime" />
+    <Property Name="CumAthQty" Type="float" />
+    <Property Name="CumStartDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FstQty" Type="float" />
+    <Property Name="DiffQty" Type="float" />
+    <Property Name="ForecastQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForecastTimeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DatePeriodStart" Type="datetime" />
+    <Property Name="DatePeriodEnd" Type="datetime" />
+    <Property Name="DateTimeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipPatternCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipPatternTimeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReleaseNumber" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReferenceID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReleaseNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="ScheduleTypeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ScheduleQtyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForecastHorizonDateStart" Type="datetime" />
+    <Property Name="ForecastHorizonEndDate" Type="datetime" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="ContactNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminFuncCode_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_hdr" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="Note" Type="nvarchar" MaxLength="1000" />
+    <Property Name="RtgSeqCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransportationType" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="CummsDateStart" Type="datetime" />
+    <Property Name="PlantID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PlantName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PlannerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTT01" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTT02" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnEmailFlag" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ProdIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdServiceQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescription" Type="nvarchar" MaxLength="100" />
+    <Property Name="ReleaseNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReleaseNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubLineAssignID" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubLineConfigCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubLineQty" Type="int" />
+    <Property Name="SubLineUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubLineProdServQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubLineProdServID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartRelStatusCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartRelDescription" Type="nvarchar" MaxLength="200" />
+    <Property Name="ProdItmDescType" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdItmCharCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdItmDescription" Type="nvarchar" MaxLength="200" />
+    <Property Name="MeasurementRefID" Type="nvarchar" MaxLength="50" />
+    <Property Name="MeasurementQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="MeasurementVal" Type="nvarchar" MaxLength="50" />
+    <Property Name="UoBMeasurementCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="RangeMax" Type="nvarchar" MaxLength="50" />
+    <Property Name="RoutingSeqCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransMethodCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminFuncCode_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_lin" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="MarksNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="MarksNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyPerCont" Type="int" />
+    <Property Name="ContType" Type="nvarchar" MaxLength="50" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="ReferenceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersEngChangeLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngChangeLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTT01" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTT02" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="SplIDCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CommQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShpKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_SHP">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShpKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="QtyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipQty" Type="float" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BegInventoryDate" Type="datetime" />
+    <Property Name="LastShipDate" Type="datetime" />
+    <Property Name="ShipDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_830_SLN">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="SlnKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ConfigCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProdServiceIDQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProdServiceID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdServiceIDQual2" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProdServiceID2" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtlKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="PriceIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="PricingQty" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="CatalogPurposeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurposeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProdIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevelQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDscrptQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescription" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorporateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum1Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum2Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum2" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmailQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="PlantID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_832_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="PriceQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PriceReference" Type="nvarchar" MaxLength="50" />
+    <Property Name="PriceRefDescrp" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_CTP">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="CtpKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PriceIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="POTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReleaseNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PODate" Type="datetime" />
+    <Property Name="NTE_NoteRefCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="NTE_FreeFormMsg" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Currency" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExchangeRate" Type="float" />
+    <Property Name="FOBShpMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBLocationQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBDescription" Type="nvarchar" MaxLength="200" />
+    <Property Name="FOBLocationQual2" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBDescription2" Type="nvarchar" MaxLength="200" />
+    <Property Name="TransMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="CarrierName" Type="nvarchar" MaxLength="100" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="AdminFuncCode_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_hdr" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTPClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="STPPriceQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="TextMessageCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Check864" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="FOBTransTermsQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBTransTermsCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_ITA">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItaKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AllowanceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="SpecialServiceCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceMethodofHdlCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceTtlAmt" Type="nvarchar" MaxLength="50" />
+    <Property Name="UBMsrCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="SpecialChargeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_ITD">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ItdKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="TermsTypeCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="TermsBasisDateCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="TermsDiscountPercent" Type="float" />
+    <Property Name="TermsDiscountDueDate" Type="datetime" />
+    <Property Name="TermsDiscountDaysDue" Type="int" />
+    <Property Name="TermsNetDueDate" Type="datetime" />
+    <Property Name="TermsNetDays" Type="int" />
+    <Property Name="TermsDiscountAmt" Type="float" />
+    <Property Name="TermsDifferredDueDate" Type="datetime" />
+    <Property Name="DifferredAmtDue" Type="float" />
+    <Property Name="PctOfInvoicePayable" Type="float" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="DayOfMonth" Type="int" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="POLineNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyOrdered" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="MfgBasePartNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevelQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="DCPartLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="PartDescription" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProjectNumQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProjectNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersEngChangeLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngChangeLevel" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="SplIDCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CommQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_N9">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N9Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="Msg" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_NTE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NteKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="NoteRefCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_PID">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="PidKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ItemDescType" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProductCharCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ItemDescQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProductDescCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="SLPCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="SlnKey" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_PO3">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="PO3Key" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ChangeReasonCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="PriceQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="BasisOfUnitPriceCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitBasisMsrCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_SAC">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SacKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AllowanceChargeIndicator" Type="nvarchar" MaxLength="50" />
+    <Property Name="SACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AgencyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AgencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="MethodHandlingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_SCH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SchKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmReqQual" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeliveryReqDate" Type="datetime" />
+    <Property Name="DtmPromisedQual" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeliveryPromisedDate" Type="datetime" />
+    <Property Name="ContainerQty" Type="int" />
+    <Property Name="ContainerType" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_SHH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShhKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SchedulingCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_850_SLN">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SlnKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelationshipCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_856_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="ASNNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipDate" Type="datetime" />
+    <Property Name="HashTotal" Type="int" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_856_HL2">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HL2Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HLIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="HLParentIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="HLCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PkgIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PkgType" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReturnSNIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReturnSN" Type="nvarchar" MaxLength="50" />
+    <Property Name="MasterMixLabelQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="MasterMixSN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_856_HL3">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HL2Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="HL3Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HLIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="HLParentIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="HLCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartNoQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevelQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="LotNoQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="LotNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipSchedQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipSchedNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjNoQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="POQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONo" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag1Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag1No" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag1ReasonQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag1ReasonCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag2Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag2No" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag2ReasonQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="IPPTag2ReasonCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierLotNoQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SupplierLotNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReturnSNIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReturnSN" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContPkgIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContPkgType" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryOfOrgQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryOfOrg" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContLabelQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContLabelSN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_856_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HLIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="HLCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="WeightQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Weight" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TrackingNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="EquipDescCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TrailerNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="SpecialHandlingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BOLQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BOLNo" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tblEDI_856_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_CTP">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="CtpKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PriceIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="POTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ChangeOrderSeqNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PODate" Type="datetime" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Currency" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExchangeRate" Type="float" />
+    <Property Name="FOBShpMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBLocationQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBDescription" Type="nvarchar" MaxLength="200" />
+    <Property Name="FOBLocationQual2" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBDescription2" Type="nvarchar" MaxLength="200" />
+    <Property Name="TransMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="CarrierName" Type="nvarchar" MaxLength="100" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="AdminFuncCode_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_hdr" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="CTPClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="STPPriceQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="TextMessageCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Check864" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="ReleaseNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBTransTermsQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="FOBTransTermsCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_ITA">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItaKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AllowanceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="SpecialServiceCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceMethodofHdlCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowanceTtlAmt" Type="nvarchar" MaxLength="50" />
+    <Property Name="UBMsrCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="SpecialChargeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_ITD">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ItdKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="TermsTypeCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="TermsBasisDateCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="TermsDiscountPercent" Type="float" />
+    <Property Name="TermsDiscountDueDate" Type="datetime" />
+    <Property Name="TermsDiscountDaysDue" Type="int" />
+    <Property Name="TermsNetDueDate" Type="datetime" />
+    <Property Name="TermsNetDays" Type="int" />
+    <Property Name="TermsDiscountAmt" Type="float" />
+    <Property Name="TermsDifferredDueDate" Type="datetime" />
+    <Property Name="DifferredAmtDue" Type="float" />
+    <Property Name="PctOfInvoicePayable" Type="float" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="DayOfMonth" Type="int" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="POLineNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineItemChange" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyOrdered" Type="float" />
+    <Property Name="QtyLeftToRcv" Type="float" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="ProdID1Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdID1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdID2Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdID2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdID3Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdID3" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="UOMCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_MSG">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MsgKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="N9Key" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="MsgText" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="SplIDCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CommQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCACCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommQual2" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum2" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_N9">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N9Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="Msg" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_NTE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NteKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="NoteRefCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="N9Key" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_PID">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="PidKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ItemDescType" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProductCharCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ItemDescQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProductDescCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="SLPCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="SlnKey" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_PKG">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="PkgKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ItemDescrpType" Type="nvarchar" MaxLength="50" />
+    <Property Name="PkgCharCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PkgDescription" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_PO3">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="PO3Key" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ChangeReasonCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="PriceQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="BasisOfUnitPriceCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitBasisMsrCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_SAC">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SacKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AllowanceChargeIndicator" Type="nvarchar" MaxLength="50" />
+    <Property Name="SACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AgencyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AgencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="MethodHandlingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_SCH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SchKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmReqQual" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeliveryReqDate" Type="datetime" />
+    <Property Name="DtmPromisedQual" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeliveryPromisedDate" Type="datetime" />
+    <Property Name="ContainerQty" Type="int" />
+    <Property Name="ContainerType" Type="nvarchar" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="N1Key" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_SHH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShhKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SchedulingCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_SLN">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SlnKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelationshipCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_860_TD5">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TD5Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="TransMethod" Type="nvarchar" MaxLength="50" />
+    <Property Name="CarrierName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_861_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="TimeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_861_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReceivingAdviceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReceivingAdviceTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReceiptDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_861_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RecvdQty" Type="float" />
+    <Property Name="RecvdQtyUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="RecvdConditionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReturnQty" Type="float" />
+    <Property Name="ReturnQtyUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="QuestionQty" Type="float" />
+    <Property Name="QuestionQtyUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="QuestionConditionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Question2Qty" Type="float" />
+    <Property Name="Question2QtyUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="Question2ConditionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShippedUnit" Type="float" />
+    <Property Name="ShippedUnitUOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdIDQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProdIDQual2" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyersEngChangeLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipScheduleQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipScheduleNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="POQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContainerLabelSNQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContainerLabelSN" Type="nvarchar" MaxLength="100" />
+    <Property Name="PalletLabelSNQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="PalletLabelSN" Type="nvarchar" MaxLength="100" />
+    <Property Name="BOLNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ASN_PLNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItemDescriptionType" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItemDescriptionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ItemDescription" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="tblEDI_861_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_861_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+    <Property Name="RefID" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_ATH">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="AthKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ResourceAuthCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ResourceAuth_ThruDate" Type="datetime" />
+    <Property Name="CumAthQty" Type="nvarchar" MaxLength="50" />
+    <Property Name="AthQty" Type="nvarchar" MaxLength="50" />
+    <Property Name="CumStartDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="TotalDailyQty" Type="float" />
+    <Property Name="DiffQty" Type="float" />
+    <Property Name="ForecastQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ForecastTimeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="FST_DeliveryShipmentDate" Type="datetime" />
+    <Property Name="DateTimeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="DeliveryShipDate" Type="datetime" />
+    <Property Name="RefNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="FstKey" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDateTime" Type="datetime" />
+    <Property Name="TimeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_EXPORT">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExportNo" Type="int" Nullable="false" />
+    <Property Name="JitKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ExportQty" Type="float" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PONum_Suffix" Type="int" />
+    <Property Name="ExportDateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="ReferenceID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="ScheduleTypeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="HorizonStartDate" Type="datetime" />
+    <Property Name="HorizonEndDate" Type="datetime" />
+    <Property Name="ReleaseNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="ContactNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="PONum" Type="nvarchar" MaxLength="20" />
+    <Property Name="ScheduleQtyQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminFuncCode_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_hdr" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_hdr" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnEmailFlag" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_JIT">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="JitKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="DeliveryShipTime" Type="datetime" />
+    <Property Name="HondaLotNumberQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="HondaLotNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="SmallLotDeliveryBatchNumQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="SmallLotDeliveryBatchNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="LotSequenceNumQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="LotSequenceNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipScheduleOrderNumQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipScheduleOrderNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnPrint" Type="bit" />
+    <Property Name="ShipmentTimeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipmentTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AssignedID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartIDQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="BuyersPartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCPartLevelQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="DCPartLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartDescQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="PartDescription" Type="nvarchar" MaxLength="100" />
+    <Property Name="PartLevelShipScheduleNumQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="PartLevelShipScheduleNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjectNoQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="ProjectNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PackagingCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="QtyPerContainer" Type="int" />
+    <Property Name="ContainerType" Type="nvarchar" MaxLength="50" />
+    <Property Name="WeightQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="Weight" Type="nvarchar" MaxLength="50" />
+    <Property Name="TD1UOM" Type="nvarchar" MaxLength="10" />
+    <Property Name="EquipDescCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="EquipNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="RoutingSeqCode" Type="nchar" MaxLength="10" />
+    <Property Name="SCACCodeQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="SCACCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransMethodTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Routing" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipOrdStatusCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocationQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocationID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransDirectionCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransTimeDirectionQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransTime" Type="nvarchar" MaxLength="50" />
+    <Property Name="UOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="NoteRefCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="FreeFormMsg" Type="nvarchar" MaxLength="200" />
+    <Property Name="AdminFuncCode_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminContact_lin" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdminCommNumQual_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdminPhone_lin" Type="nvarchar" MaxLength="50" />
+    <Property Name="PalletType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="SqlNumQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorpName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CommQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="NNALogContact" Type="nvarchar" MaxLength="100" />
+    <Property Name="Check864" Type="nvarchar" MaxLength="100" />
+    <Property Name="BuyerName" Type="nvarchar" MaxLength="100" />
+    <Property Name="RequestorName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_REF">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShpKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="RefKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RefQual" Type="nvarchar" MaxLength="10" />
+    <Property Name="RefNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblEDI_862_SHP">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShpKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="QtyQual" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShipQty" Type="float" />
+    <Property Name="DateQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastShipDate" Type="datetime" />
+    <Property Name="BegInventoryDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblEDI_864_DTM">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtmKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DtmQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="TimeCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_864_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetPurpose" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransDescription" Type="nvarchar" MaxLength="100" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_864_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="DocumentIDNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="PageWidth" Type="int" />
+    <Property Name="PageLengthLines" Type="int" />
+  </EntityType>
+  <EntityType Name="tblEDI_864_MSG">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MsgKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="MsgText" Type="nvarchar" MaxLength="1000" />
+    <Property Name="CarriageControlCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_864_N1">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="N1Key" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EntityIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CodeQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="CorporationName" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdditionalName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ContactNum1Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNumber1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNum2Qual" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNumber2" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDI_997_DETAIL">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DtlKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="LineKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="SegmentIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentPosition" Type="int" />
+    <Property Name="LoopIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentCode1" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentCode2" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentCode3" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentCode4" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentCode5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ElementPosition" Type="int" />
+    <Property Name="ElementRefNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ElementSyntaxErrorCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CopyBadDataElement" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblEDI_997_HEADER">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HdrKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ISAControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISASenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GSSenderID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="GroupControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalGroupAckCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="NumofTransSetsIncluded" Type="int" />
+    <Property Name="NumofReceivedTransSets" Type="int" />
+    <Property Name="NumofAcceptedTransSets" Type="int" />
+    <Property Name="SubmitDateTime" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="GeneratedDateTime" Type="datetime" />
+    <Property Name="FunctionalGroupNoteCode1" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalGroupNoteCode2" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalGroupNoteCode3" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalGroupNoteCode4" Type="nvarchar" MaxLength="50" />
+    <Property Name="FunctionalGroupNoteCode5" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnRepFlag" Type="bit" />
+    <Property Name="GSReceiverID" Type="nvarchar" MaxLength="50" />
+    <Property Name="blnEmailFlag" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblEDI_997_LINE">
+    <Key>
+      <PropertyRef Name="NO" />
+    </Key>
+    <Property Name="NO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LineKey" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HdrKey" Type="nvarchar" MaxLength="100" />
+    <Property Name="TranSetIDCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetAckCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetSyntaxErrorCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetNoteCode1" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetNoteCode2" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetNoteCode3" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetNoteCode4" Type="nvarchar" MaxLength="50" />
+    <Property Name="TranSetNoteCode5" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDISegment">
+    <Key>
+      <PropertyRef Name="SegmentNo" />
+    </Key>
+    <Property Name="SegmentNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SegmentCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDITransactionSet">
+    <Key>
+      <PropertyRef Name="TransactionSetNo" />
+    </Key>
+    <Property Name="TransactionSetNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionSetID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="InOut" Type="bit" Nullable="false" />
+    <Property Name="EDITypeNo_FK" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblEDITransactionStructure">
+    <Key>
+      <PropertyRef Name="StructureNo" />
+    </Key>
+    <Property Name="StructureNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Version" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TransactionSetID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FunctionGroup" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SegmentCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="MinLength" Type="int" Nullable="false" />
+    <Property Name="MaxLength" Type="int" Nullable="false" />
+    <Property Name="EDITypeNo_FK" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblEDITrasactionRawData">
+    <Key>
+      <PropertyRef Name="TransactionRawDataNo" />
+    </Key>
+    <Property Name="TransactionRawDataNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionDate" Type="datetime" Nullable="false" />
+    <Property Name="TradingPartnerNo_FK" Type="int" Nullable="false" />
+    <Property Name="TransactionSetNo_FK" Type="int" Nullable="false" />
+    <Property Name="TransactionKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InOut" Type="bit" Nullable="false" />
+    <Property Name="RawData" Type="text" Nullable="false" />
+    <Property Name="XMLData" Type="text" Nullable="false" />
+    <Property Name="InterchangeControlNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="GroupControlNum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDIType">
+    <Key>
+      <PropertyRef Name="EDITypeNo" />
+    </Key>
+    <Property Name="EDITypeNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblEDIVersion">
+    <Key>
+      <PropertyRef Name="EDIVersionNo" />
+    </Key>
+    <Property Name="EDIVersionNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Version" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EDITypeNo_FK" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblErrorHandle">
+    <Key>
+      <PropertyRef Name="ErrorHandleNo" />
+    </Key>
+    <Property Name="ErrorHandleNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ErrorHandleCode" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorLogNo" />
+    </Key>
+    <Property Name="ErrorLogNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogDate" Type="datetime" Nullable="false" />
+    <Property Name="TradingPartnerNo_FK" Type="int" />
+    <Property Name="TransactionSetNo_FK" Type="int" />
+    <Property Name="TransactionRawDataNo_FK" Type="int" />
+    <Property Name="ErrorMessage" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LogType" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblInboundMapping">
+    <Key>
+      <PropertyRef Name="InboundMappingNo" />
+    </Key>
+    <Property Name="InboundMappingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradingPartnerNo_FK" Type="int" Nullable="false" />
+    <Property Name="TransactionSetNo_FK" Type="int" Nullable="false" />
+    <Property Name="SegmentNo_FK" Type="int" />
+    <Property Name="Postion" Type="int" Nullable="false" />
+    <Property Name="TableName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FieldName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommitDBAfterRead" Type="bit" Nullable="false" />
+    <Property Name="Note" Type="nvarchar" MaxLength="200" />
+    <Property Name="TransactionRawDataNo_FK" Type="int" Nullable="false" />
+    <Property Name="IsInsert" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblInboundOutboundSetting">
+    <Key>
+      <PropertyRef Name="SettingNo" />
+    </Key>
+    <Property Name="SettingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SettingName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="InOut" Type="bit" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsArchive" Type="bit" Nullable="false" />
+    <Property Name="IsDelete" Type="bit" Nullable="false" />
+    <Property Name="IsCreate" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblInterchangeControlNumber">
+    <Key>
+      <PropertyRef Name="ControlNo" />
+    </Key>
+    <Property Name="ControlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InterchangeControlNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblOperator">
+    <Key>
+      <PropertyRef Name="OperatorNo" />
+    </Key>
+    <Property Name="OperatorNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OperatorCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OperatorName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OperatorParameter" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblOperatorInboundMapping">
+    <Key>
+      <PropertyRef Name="OperatorMappingNo" />
+    </Key>
+    <Property Name="OperatorMappingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OperatorNo_FK" Type="int" Nullable="false" />
+    <Property Name="InboundMappingNo_FK" Type="int" Nullable="false" />
+    <Property Name="OperatorParameter" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblOperatorOutboundMapping">
+    <Key>
+      <PropertyRef Name="OperatorMappingNo" />
+    </Key>
+    <Property Name="OperatorMappingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OperatorNo_FK" Type="int" Nullable="false" />
+    <Property Name="OutboundMappingNo_FK" Type="int" Nullable="false" />
+    <Property Name="OperatorParameter" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tblOutboundMapping">
+    <Key>
+      <PropertyRef Name="OutboundMappingNo" />
+    </Key>
+    <Property Name="OutboundMappingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradingPartnerNo_FK" Type="int" Nullable="false" />
+    <Property Name="TransactionSetNo_FK" Type="int" Nullable="false" />
+    <Property Name="SegmentNo_FK" Type="int" />
+    <Property Name="Postion" Type="int" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" MaxLength="50" />
+    <Property Name="XMLPathField" Type="nvarchar" MaxLength="100" />
+    <Property Name="Note" Type="nvarchar" MaxLength="200" />
+    <Property Name="OutputEDIFilePath" Type="nvarchar" MaxLength="200" />
+    <Property Name="TransactionRawDataNo_FK" Type="int" Nullable="false" />
+    <Property Name="SegmentNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblSegmentTerminator">
+    <Key>
+      <PropertyRef Name="SegmentTerminatorNo" />
+    </Key>
+    <Property Name="SegmentTerminatorNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TerminatorCode" Type="int" Nullable="false" />
+    <Property Name="Terminator" Type="nvarchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tblTradingPartner">
+    <Key>
+      <PropertyRef Name="TradingPartnerNo" />
+    </Key>
+    <Property Name="TradingPartnerNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradingPartnerName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AuthorizationQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="AuthorizationInfo" Type="nvarchar" MaxLength="50" />
+    <Property Name="SecurityQual" Type="nvarchar" MaxLength="50" />
+    <Property Name="SecurityInfo" Type="nvarchar" MaxLength="50" />
+    <Property Name="InterchangeSenderIDQual" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InterchangeSenderID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InterchangeReceiverIDQual" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InterchangeReceiverID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ApplicationSenderCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ApplicationReceiverCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ResponsibleAgencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="SegmentTerminator" Type="int" Nullable="false" />
+    <Property Name="DataElementDelimiter" Type="int" Nullable="false" />
+    <Property Name="RepetitionSep" Type="int" />
+    <Property Name="InterchangeVersion" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StandardVersion" Type="int" Nullable="false" />
+    <Property Name="TestIndicator" Type="bit" Nullable="false" />
+    <Property Name="SubElementSep" Type="int" Nullable="false" />
+    <Property Name="FunctionalAcknowledgement" Type="int" />
+    <Property Name="OutBoundID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblTradingPartnerErrorHanding">
+    <Key>
+      <PropertyRef Name="TPErrorHandingNo" />
+    </Key>
+    <Property Name="TPErrorHandingNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradingPartnerNo_FK" Type="int" Nullable="false" />
+    <Property Name="TransactionSetNo_FK" Type="int" Nullable="false" />
+    <Property Name="ErrorHandleNo_FK" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tblEDITra__EDITy__060DEAE8">
+    <End Role="tblEDIType" Type="BHEDIModel.Store.tblEDIType" Multiplicity="1" />
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDIType">
+        <PropertyRef Name="EDITypeNo" />
+      </Principal>
+      <Dependent Role="tblEDITransactionSet">
+        <PropertyRef Name="EDITypeNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblEDITra__EDITy__1273C1CD">
+    <End Role="tblEDIType" Type="BHEDIModel.Store.tblEDIType" Multiplicity="1" />
+    <End Role="tblEDITransactionStructure" Type="BHEDIModel.Store.tblEDITransactionStructure" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDIType">
+        <PropertyRef Name="EDITypeNo" />
+      </Principal>
+      <Dependent Role="tblEDITransactionStructure">
+        <PropertyRef Name="EDITypeNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblEDITra__Tradi__1BFD2C07">
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="1" />
+    <End Role="tblEDITrasactionRawData" Type="BHEDIModel.Store.tblEDITrasactionRawData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTradingPartner">
+        <PropertyRef Name="TradingPartnerNo" />
+      </Principal>
+      <Dependent Role="tblEDITrasactionRawData">
+        <PropertyRef Name="TradingPartnerNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblEDITra__Trans__1CF15040">
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="1" />
+    <End Role="tblEDITrasactionRawData" Type="BHEDIModel.Store.tblEDITrasactionRawData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITransactionSet">
+        <PropertyRef Name="TransactionSetNo" />
+      </Principal>
+      <Dependent Role="tblEDITrasactionRawData">
+        <PropertyRef Name="TransactionSetNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblEDIVer__EDITy__7F60ED59">
+    <End Role="tblEDIType" Type="BHEDIModel.Store.tblEDIType" Multiplicity="1" />
+    <End Role="tblEDIVersion" Type="BHEDIModel.Store.tblEDIVersion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDIType">
+        <PropertyRef Name="EDITypeNo" />
+      </Principal>
+      <Dependent Role="tblEDIVersion">
+        <PropertyRef Name="EDITypeNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblErrorL__Tradi__1FCDBCEB">
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="0..1" />
+    <End Role="tblErrorLog" Type="BHEDIModel.Store.tblErrorLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTradingPartner">
+        <PropertyRef Name="TradingPartnerNo" />
+      </Principal>
+      <Dependent Role="tblErrorLog">
+        <PropertyRef Name="TradingPartnerNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblErrorL__Trans__20C1E124">
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="0..1" />
+    <End Role="tblErrorLog" Type="BHEDIModel.Store.tblErrorLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITransactionSet">
+        <PropertyRef Name="TransactionSetNo" />
+      </Principal>
+      <Dependent Role="tblErrorLog">
+        <PropertyRef Name="TransactionSetNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblErrorL__Trans__21B6055D">
+    <End Role="tblEDITrasactionRawData" Type="BHEDIModel.Store.tblEDITrasactionRawData" Multiplicity="0..1" />
+    <End Role="tblErrorLog" Type="BHEDIModel.Store.tblErrorLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITrasactionRawData">
+        <PropertyRef Name="TransactionRawDataNo" />
+      </Principal>
+      <Dependent Role="tblErrorLog">
+        <PropertyRef Name="TransactionRawDataNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblInboun__Segme__267ABA7A">
+    <End Role="tblEDISegment" Type="BHEDIModel.Store.tblEDISegment" Multiplicity="0..1" />
+    <End Role="tblInboundMapping" Type="BHEDIModel.Store.tblInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDISegment">
+        <PropertyRef Name="SegmentNo" />
+      </Principal>
+      <Dependent Role="tblInboundMapping">
+        <PropertyRef Name="SegmentNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblInboun__Tradi__24927208">
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="1" />
+    <End Role="tblInboundMapping" Type="BHEDIModel.Store.tblInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTradingPartner">
+        <PropertyRef Name="TradingPartnerNo" />
+      </Principal>
+      <Dependent Role="tblInboundMapping">
+        <PropertyRef Name="TradingPartnerNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblInboun__Trans__25869641">
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="1" />
+    <End Role="tblInboundMapping" Type="BHEDIModel.Store.tblInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITransactionSet">
+        <PropertyRef Name="TransactionSetNo" />
+      </Principal>
+      <Dependent Role="tblInboundMapping">
+        <PropertyRef Name="TransactionSetNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblInboun__Trans__276EDEB3">
+    <End Role="tblEDITrasactionRawData" Type="BHEDIModel.Store.tblEDITrasactionRawData" Multiplicity="1" />
+    <End Role="tblInboundMapping" Type="BHEDIModel.Store.tblInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITrasactionRawData">
+        <PropertyRef Name="TransactionRawDataNo" />
+      </Principal>
+      <Dependent Role="tblInboundMapping">
+        <PropertyRef Name="TransactionRawDataNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOperat__Inbou__30F848ED">
+    <End Role="tblInboundMapping" Type="BHEDIModel.Store.tblInboundMapping" Multiplicity="1" />
+    <End Role="tblOperatorInboundMapping" Type="BHEDIModel.Store.tblOperatorInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblInboundMapping">
+        <PropertyRef Name="InboundMappingNo" />
+      </Principal>
+      <Dependent Role="tblOperatorInboundMapping">
+        <PropertyRef Name="InboundMappingNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOperat__Opera__300424B4">
+    <End Role="tblOperator" Type="BHEDIModel.Store.tblOperator" Multiplicity="1" />
+    <End Role="tblOperatorInboundMapping" Type="BHEDIModel.Store.tblOperatorInboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOperator">
+        <PropertyRef Name="OperatorNo" />
+      </Principal>
+      <Dependent Role="tblOperatorInboundMapping">
+        <PropertyRef Name="OperatorNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOperat__Opera__33D4B598">
+    <End Role="tblOperator" Type="BHEDIModel.Store.tblOperator" Multiplicity="1" />
+    <End Role="tblOperatorOutboundMapping" Type="BHEDIModel.Store.tblOperatorOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOperator">
+        <PropertyRef Name="OperatorNo" />
+      </Principal>
+      <Dependent Role="tblOperatorOutboundMapping">
+        <PropertyRef Name="OperatorNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOperat__Outbo__34C8D9D1">
+    <End Role="tblOutboundMapping" Type="BHEDIModel.Store.tblOutboundMapping" Multiplicity="1" />
+    <End Role="tblOperatorOutboundMapping" Type="BHEDIModel.Store.tblOperatorOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOutboundMapping">
+        <PropertyRef Name="OutboundMappingNo" />
+      </Principal>
+      <Dependent Role="tblOperatorOutboundMapping">
+        <PropertyRef Name="OutboundMappingNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOutbou__Segme__2C3393D0">
+    <End Role="tblEDISegment" Type="BHEDIModel.Store.tblEDISegment" Multiplicity="0..1" />
+    <End Role="tblOutboundMapping" Type="BHEDIModel.Store.tblOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDISegment">
+        <PropertyRef Name="SegmentNo" />
+      </Principal>
+      <Dependent Role="tblOutboundMapping">
+        <PropertyRef Name="SegmentNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOutbou__Tradi__2A4B4B5E">
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="1" />
+    <End Role="tblOutboundMapping" Type="BHEDIModel.Store.tblOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTradingPartner">
+        <PropertyRef Name="TradingPartnerNo" />
+      </Principal>
+      <Dependent Role="tblOutboundMapping">
+        <PropertyRef Name="TradingPartnerNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOutbou__Trans__2B3F6F97">
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="1" />
+    <End Role="tblOutboundMapping" Type="BHEDIModel.Store.tblOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITransactionSet">
+        <PropertyRef Name="TransactionSetNo" />
+      </Principal>
+      <Dependent Role="tblOutboundMapping">
+        <PropertyRef Name="TransactionSetNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOutbou__Trans__2D27B809">
+    <End Role="tblEDITrasactionRawData" Type="BHEDIModel.Store.tblEDITrasactionRawData" Multiplicity="1" />
+    <End Role="tblOutboundMapping" Type="BHEDIModel.Store.tblOutboundMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITrasactionRawData">
+        <PropertyRef Name="TransactionRawDataNo" />
+      </Principal>
+      <Dependent Role="tblOutboundMapping">
+        <PropertyRef Name="TransactionRawDataNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__DataE__0BC6C43E">
+    <End Role="tblSegmentTerminator" Type="BHEDIModel.Store.tblSegmentTerminator" Multiplicity="1" />
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSegmentTerminator">
+        <PropertyRef Name="SegmentTerminatorNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartner">
+        <PropertyRef Name="DataElementDelimiter" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Error__1920BF5C">
+    <End Role="tblErrorHandle" Type="BHEDIModel.Store.tblErrorHandle" Multiplicity="1" />
+    <End Role="tblTradingPartnerErrorHanding" Type="BHEDIModel.Store.tblTradingPartnerErrorHanding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblErrorHandle">
+        <PropertyRef Name="ErrorHandleNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartnerErrorHanding">
+        <PropertyRef Name="ErrorHandleNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Repet__0CBAE877">
+    <End Role="tblSegmentTerminator" Type="BHEDIModel.Store.tblSegmentTerminator" Multiplicity="0..1" />
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSegmentTerminator">
+        <PropertyRef Name="SegmentTerminatorNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartner">
+        <PropertyRef Name="RepetitionSep" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Segme__0AD2A005">
+    <End Role="tblSegmentTerminator" Type="BHEDIModel.Store.tblSegmentTerminator" Multiplicity="1" />
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSegmentTerminator">
+        <PropertyRef Name="SegmentTerminatorNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartner">
+        <PropertyRef Name="SegmentTerminator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Stand__0DAF0CB0">
+    <End Role="tblEDIVersion" Type="BHEDIModel.Store.tblEDIVersion" Multiplicity="1" />
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDIVersion">
+        <PropertyRef Name="EDIVersionNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartner">
+        <PropertyRef Name="StandardVersion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__SubEl__0EA330E9">
+    <End Role="tblSegmentTerminator" Type="BHEDIModel.Store.tblSegmentTerminator" Multiplicity="1" />
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSegmentTerminator">
+        <PropertyRef Name="SegmentTerminatorNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartner">
+        <PropertyRef Name="SubElementSep" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Tradi__173876EA">
+    <End Role="tblTradingPartner" Type="BHEDIModel.Store.tblTradingPartner" Multiplicity="1" />
+    <End Role="tblTradingPartnerErrorHanding" Type="BHEDIModel.Store.tblTradingPartnerErrorHanding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTradingPartner">
+        <PropertyRef Name="TradingPartnerNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartnerErrorHanding">
+        <PropertyRef Name="TradingPartnerNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTradin__Trans__182C9B23">
+    <End Role="tblEDITransactionSet" Type="BHEDIModel.Store.tblEDITransactionSet" Multiplicity="1" />
+    <End Role="tblTradingPartnerErrorHanding" Type="BHEDIModel.Store.tblTradingPartnerErrorHanding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblEDITransactionSet">
+        <PropertyRef Name="TransactionSetNo" />
+      </Principal>
+      <Dependent Role="tblTradingPartnerErrorHanding">
+        <PropertyRef Name="TransactionSetNo_FK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="s_InboundMapping_ExportToCSV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TradingPartnerNo" Type="int" Mode="In" />
+    <Parameter Name="TransactionSetNo" Type="int" Mode="In" />
+    <Parameter Name="TransactionRawDataNo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="s_OutboundMapping_ExportToCSV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TradingPartnerNo" Type="int" Mode="In" />
+    <Parameter Name="TransactionSetNo" Type="int" Mode="In" />
+    <Parameter Name="TransactionRawDataNo" Type="int" Mode="In" />
+  </Function>
+</Schema>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<configuration>
+
+
+<connectionStrings>
+  <add name="BHEDI_EDM" connectionString="metadata=res://*/BHEDI_EDM.csdl|res://*/BHEDI_EDM.ssdl|res://*/BHEDI_EDM.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DB-SERV2;initial catalog=BHEDI;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient"/>
+</connectionStrings>
+
+
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

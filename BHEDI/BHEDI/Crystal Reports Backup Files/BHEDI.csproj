@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57A2733D-5647-422C-954C-8404EC16110B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BHEDI</RootNamespace>
+    <AssemblyName>BHEDI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bhedi_medium_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BHEDI_EDM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BHEDI_EDM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BHEDI_SP.cs">
+      <DependentUpon>BHEDI_SP.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BHEDI_SP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BHEDI_SP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ERP_SCP.cs" />
+    <Compile Include="frmTradingPartnerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTradingPartnerList.Designer.cs">
+      <DependentUpon>frmTradingPartnerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcessDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcessDialog.Designer.cs">
+      <DependentUpon>frmProcessDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImport820ToSimply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport820ToSimply.Designer.cs">
+      <DependentUpon>frmImport820ToSimply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDIError.cs" />
+    <Compile Include="EDIHeader.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="EDITranslator.cs" />
+    <Compile Include="frmDataElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataElement.Designer.cs">
+      <DependentUpon>frmDataElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEDITransactionSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEDITransactionSet.Designer.cs">
+      <DependentUpon>frmEDITransactionSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportInboundFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportInboundFile.Designer.cs">
+      <DependentUpon>frmImportInboundFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportOutboundFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportOutboundFile.Designer.cs">
+      <DependentUpon>frmImportOutboundFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInboundMapDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInboundMapDesign.Designer.cs">
+      <DependentUpon>frmInboundMapDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogError.Designer.cs">
+      <DependentUpon>frmLogError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogJob.Designer.cs">
+      <DependentUpon>frmLogJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapEDIData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapEDIData.Designer.cs">
+      <DependentUpon>frmMapEDIData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMappingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMappingList.Designer.cs">
+      <DependentUpon>frmMappingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutboundMapDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutboundMapDesign.Designer.cs">
+      <DependentUpon>frmOutboundMapDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetupInbound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetupInbound.Designer.cs">
+      <DependentUpon>frmSetupInbound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetupOutbound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetupOutbound.Designer.cs">
+      <DependentUpon>frmSetupOutbound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTradingPartner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTradingPartner.Designer.cs">
+      <DependentUpon>frmTradingPartner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEDI.Designer.cs">
+      <DependentUpon>frmViewEDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSetting.Designer.cs">
+      <DependentUpon>frmViewSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWriteXMLToEDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWriteXMLToEDI.Designer.cs">
+      <DependentUpon>frmWriteXMLToEDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InboundMapping.cs" />
+    <Compile Include="InOutProcess.cs" />
+    <Compile Include="MappingOperator.cs" />
+    <Compile Include="MappingVariable.cs" />
+    <Compile Include="OutboundMapping.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\rptLogError.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLogError.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptLogJob.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLogJob.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptInboundSetting.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInboundSetting.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptOutboundSetting.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutboundSetting.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptTradingPartner.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTradingPartner.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="XMLHeader.cs" />
+    <Compile Include="XMLNode.cs" />
+    <EmbeddedResource Include="frmTradingPartnerList.resx">
+      <DependentUpon>frmTradingPartnerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessDialog.resx">
+      <DependentUpon>frmProcessDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport820ToSimply.resx">
+      <DependentUpon>frmImport820ToSimply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataElement.resx">
+      <DependentUpon>frmDataElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEDITransactionSet.resx">
+      <DependentUpon>frmEDITransactionSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportInboundFile.resx">
+      <DependentUpon>frmImportInboundFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportOutboundFile.resx">
+      <DependentUpon>frmImportOutboundFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInboundMapDesign.resx">
+      <DependentUpon>frmInboundMapDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogError.resx">
+      <DependentUpon>frmLogError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogJob.resx">
+      <DependentUpon>frmLogJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapEDIData.resx">
+      <DependentUpon>frmMapEDIData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMappingList.resx">
+      <DependentUpon>frmMappingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutboundMapDesign.resx">
+      <DependentUpon>frmOutboundMapDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetupInbound.resx">
+      <DependentUpon>frmSetupInbound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetupOutbound.resx">
+      <DependentUpon>frmSetupOutbound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTradingPartner.resx">
+      <DependentUpon>frmTradingPartner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEDI.resx">
+      <DependentUpon>frmViewEDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSetting.resx">
+      <DependentUpon>frmViewSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWriteXMLToEDI.resx">
+      <DependentUpon>frmWriteXMLToEDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\rptLogError.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLogError.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptLogJob.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLogJob.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptInboundSetting.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInboundSetting.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptOutboundSetting.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutboundSetting.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptTradingPartner.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTradingPartner.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="BHEDI_EDM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BHEDI_EDM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BHEDI_SP.xsc">
+      <DependentUpon>BHEDI_SP.xsd</DependentUpon>
+    </None>
+    <None Include="BHEDI_SP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BHEDI_SP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BHEDI_SP.xss">
+      <DependentUpon>BHEDI_SP.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\BHEDI_EDM.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Script\EDI_IN_SQL.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bhedi_medium_ico.ico" />
+    <Content Include="Script\EDI_Trigger_File.sql" />
+    <Content Include="Sql\CreateDataMySQL.sql" />
+    <Content Include="Sql\CreateEDIStructureMySQL.sql" />
+    <Content Include="Sql\CreateX12StructureFromPython.sql" />
+    <Content Include="Sql\DataDuplicatedCheck.sql" />
+    <None Include="Resources\file_exit.png" />
+    <Content Include="Sql\CreateData.sql" />
+    <Content Include="Sql\CreateDatabaseMSSQL.sql" />
+    <Content Include="Sql\CreateEDIFACTStructureFromPython.sql" />
+    <Content Include="Sql\CreateEDIStructureManually.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
